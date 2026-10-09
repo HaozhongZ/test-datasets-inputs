@@ -1,0 +1,8 @@
+{
+  "suite": "infographic",
+  "version": "1.0.0",
+  "case_count": 120,
+  "input_file": "input.json",
+  "schema_version": 1,
+  "note": "Only test inputs are published; expected outcomes and ID mappings are kept separately."
+}
