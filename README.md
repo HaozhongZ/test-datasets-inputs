@@ -9,6 +9,14 @@
 - 格式：JSON 数组；每条包含 `id`、`source_id`、`user_question`、`table.headers` 和 `table.rows`。
 - 用法：逐条将问句与表格提交给被测生成能力，按 `id` 保存产物。
 
+## AIME 上线信息图英文测试集 v1.0.0
+
+- 用途：给 **AIME 上线的信息图生成能力**做英文输入盲测。
+- 文件：[`suites/aime-infographic-english/v1.0.0/input.json`](suites/aime-infographic-english/v1.0.0/input.json)
+- 数量：120 条英文问句及英文表格，随机排列并使用连续盲测 ID；十类测试方向的数量与原信息图 120 条测试集一致。
+- 数据性质：部分案例使用控制性模拟数据，以覆盖特定图表结构；其余为提供的看板压缩包中模型回答提取的英文表格。提取表也只是测试快照，未经独立事实核实。
+- 格式与用法：每条包含 `id`、`source_id`、`user_question`、`table.headers` 和 `table.rows`。逐条提交问句与表格，按 `id` 保存产物。输入中不包含期望图型或评分信息。
+
 ## 并购视频 v1.0.0
 
 - 文件：[`suites/merger-video/v1.0.0/input.json`](suites/merger-video/v1.0.0/input.json)

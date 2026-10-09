@@ -1,0 +1,5217 @@
+[
+  {
+    "id": "ENB-001",
+    "source_id": "ENB-SRC-001",
+    "user_question": "How does the mix of Bull, Base, and Bear differ across horizon?",
+    "table": {
+      "headers": [
+        "Horizon",
+        "Bull",
+        "Base",
+        "Bear"
+      ],
+      "rows": [
+        [
+          "1 Day",
+          "25%",
+          "50%",
+          "25%"
+        ],
+        [
+          "1 Week",
+          "30%",
+          "45%",
+          "25%"
+        ],
+        [
+          "1 Month",
+          "30%",
+          "40%",
+          "30%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-002",
+    "source_id": "ENB-SRC-002",
+    "user_question": "How is Weight divided among the listed holding entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Holding",
+        "Weight"
+      ],
+      "rows": [
+        [
+          "VWRP",
+          "50%"
+        ],
+        [
+          "VUAG",
+          "25%"
+        ],
+        [
+          "EQGB",
+          "15%"
+        ],
+        [
+          "GSK",
+          "10%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-003",
+    "source_id": "ENB-SRC-003",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Dec 2024",
+          "MOVE launches; 66M tokens dumped next day via market-maker deal"
+        ],
+        [
+          "Apr 2025",
+          "CoinDesk investigation exposes the deal"
+        ],
+        [
+          "May 2025",
+          "Co-founder Rushi Manche fired; Coinbase delists MOVE"
+        ],
+        [
+          "Dec 2025",
+          "Move Industries takes over as primary service provider"
+        ],
+        [
+          "Jun 2026",
+          "Pivot to sovereign L1 / stablecoin settlement"
+        ],
+        [
+          "Jul 15, 2026",
+          "MVMT Labs files Chapter 11 (Case #26-11113, Delaware)"
+        ],
+        [
+          "Aug 20, 2026",
+          "Creditor meeting — 9 days from now"
+        ],
+        [
+          "Sep 14, 2026",
+          "Claims filing deadline"
+        ],
+        [
+          "Oct 13, 2026",
+          "Restructuring plan expected"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-004",
+    "source_id": "ENB-SRC-004",
+    "user_question": "How do Gross Margin (%) and Op Margin (%) compare across ticker? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Ticker",
+        "Gross Margin (%)",
+        "Op Margin (%)"
+      ],
+      "rows": [
+        [
+          "UAN",
+          "46.1",
+          "41.9"
+        ],
+        [
+          "CF",
+          "51.5",
+          "50.1"
+        ],
+        [
+          "NTR",
+          "30.1",
+          "16.4"
+        ],
+        [
+          "ICL",
+          "31.1",
+          "12.5"
+        ],
+        [
+          "MOS",
+          "7.6",
+          "-1.3"
+        ],
+        [
+          "FMC",
+          "39.5",
+          "-13.8"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-005",
+    "source_id": "ENB-SRC-005",
+    "user_question": "How is Allocation divided among the listed position entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Position",
+        "Allocation"
+      ],
+      "rows": [
+        [
+          "Core 1",
+          "35%"
+        ],
+        [
+          "Core 2",
+          "20%"
+        ],
+        [
+          "Core 3",
+          "20%"
+        ],
+        [
+          "Reserve",
+          "15%"
+        ],
+        [
+          "Dry powder",
+          "10%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-006",
+    "source_id": "ENB-SRC-006",
+    "user_question": "For each Quarter, what are the listed Non-GAAP Gross Margin, YoY Change, and Key Driver?",
+    "table": {
+      "headers": [
+        "Quarter",
+        "Non-GAAP Gross Margin",
+        "YoY Change",
+        "Key Driver"
+      ],
+      "rows": [
+        [
+          "Q1 FY26 (Nov '25)",
+          "9.5%",
+          "—",
+          "Component cost pressure, ramp costs"
+        ],
+        [
+          "Q2 FY26 (Feb '26)",
+          "6.4%",
+          "-310 bps",
+          "Worst quarter — expedite fees, tariffs, inventory reserves"
+        ],
+        [
+          "Q3 FY26 (May '26)",
+          "10.1%",
+          "+370 bps QoQ",
+          "Improved mix, lower tariffs/expedites, DCBPS growth"
+        ],
+        [
+          "Q4 FY26 (initial guide)",
+          "8.2%–8.4%",
+          "—",
+          "Management expected margin compression on large-deal mix"
+        ],
+        [
+          "Q4 FY26 (pre-announced)",
+          "15%–17%",
+          "+490–690 bps",
+          "\"Favorable customer and product mix\""
+        ],
+        [
+          "Q4 FY26 (actual)",
+          "17.5%",
+          "—",
+          "Beat the pre-announced range"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-007",
+    "source_id": "ENB-SRC-007",
+    "user_question": "How do Avg Price and Last Price compare across stock? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Stock",
+        "Avg Price",
+        "Last Price"
+      ],
+      "rows": [
+        [
+          "ES3 (STI ETF)",
+          "5.748",
+          "5.771"
+        ],
+        [
+          "HZGD (Zijin Gold)",
+          "2.172",
+          "2.240"
+        ],
+        [
+          "PropNex (OYY)",
+          "1.845",
+          "1.820"
+        ],
+        [
+          "CNMC (5TP)",
+          "1.390",
+          "1.380"
+        ],
+        [
+          "Sheng Siong (OV8)",
+          "3.193",
+          "3.250"
+        ],
+        [
+          "Centurion (OU8)",
+          "1.642",
+          "1.630"
+        ],
+        [
+          "Seatrium (5E2)",
+          "2.152",
+          "2.150"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-008",
+    "source_id": "ENB-SRC-008",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Lodging",
+          "Hotels",
+          "21"
+        ],
+        [
+          "Lodging",
+          "Apartments",
+          "13"
+        ],
+        [
+          "Lodging",
+          "Resorts",
+          "40"
+        ],
+        [
+          "Experiences",
+          "Tours",
+          "18"
+        ],
+        [
+          "Experiences",
+          "Events",
+          "28"
+        ],
+        [
+          "Experiences",
+          "Transport",
+          "32"
+        ],
+        [
+          "Services",
+          "Booking",
+          "18"
+        ],
+        [
+          "Services",
+          "Support",
+          "27"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-009",
+    "source_id": "ENB-SRC-009",
+    "user_question": "For each Action, what are the listed Price, and Rationale?",
+    "table": {
+      "headers": [
+        "Action",
+        "Price",
+        "Rationale"
+      ],
+      "rows": [
+        [
+          "Do NOT buy now",
+          "$1,533",
+          "At the top of a 13% spike, at $1,550 option-wall resistance, with Poor fund flow"
+        ],
+        [
+          "Set alert",
+          "$1,380–1,420",
+          "Realistic pullback target after the Investor Day dust settles. This is the Aug 11–12 closing range"
+        ],
+        [
+          "If it pulls back",
+          "$1,350–1,420",
+          "Scale in here — still above the 7-day option-wall support at $1,500 but below the spike zone"
+        ],
+        [
+          "Stop if you enter",
+          "$1,250",
+          "Below the Aug 10 close of $1,238"
+        ],
+        [
+          "Target 1",
+          "$1,750",
+          "Morgan Stanley target — 23–30% upside from entry"
+        ],
+        [
+          "Target 2",
+          "$2,200+",
+          "Mizuho/BofA target — 55–63% upside"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-010",
+    "source_id": "ENB-SRC-010",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Dec 2025",
+          "S-1 registered up to 187.2M shares for resale"
+        ],
+        [
+          "Mar 2026",
+          "EEME purchased 100M shares at $0.10/share ($10M total) for plant conversion"
+        ],
+        [
+          "Mar 12, 2026",
+          "Insider Randy Soule (founder) sold 1.26M shares at $0.52"
+        ],
+        [
+          "Apr 2026",
+          "Encore DEC (10% owner) sold 1.26M shares"
+        ],
+        [
+          "Jun 19, 2026",
+          "Terminated Helena Global ELOC — 55M shares freed from reservation"
+        ],
+        [
+          "Aug 19, 2026 (today)",
+          "POS AM filing: 172.8M shares registered for resale"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-011",
+    "source_id": "ENB-SRC-011",
+    "user_question": "For each Holding, what are the listed Weight, and Role?",
+    "table": {
+      "headers": [
+        "Holding",
+        "Weight",
+        "Role"
+      ],
+      "rows": [
+        [
+          "QQQM",
+          "38.85%",
+          "NASDAQ 100 core growth"
+        ],
+        [
+          "VXUS",
+          "25.7%",
+          "International developed + EM"
+        ],
+        [
+          "AIQ",
+          "10.2%",
+          "AI thematic satellite"
+        ],
+        [
+          "LLY",
+          "4.9%",
+          "Single-stock pharma (GLP-1)"
+        ],
+        [
+          "AVUV",
+          "1.8%",
+          "Small-cap value tilt"
+        ],
+        [
+          "SPAXX",
+          "18.5%",
+          "Cash / dry powder"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-012",
+    "source_id": "ENB-SRC-012",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Generation",
+          "Solar",
+          "8"
+        ],
+        [
+          "Generation",
+          "Wind",
+          "37"
+        ],
+        [
+          "Generation",
+          "Gas",
+          "10"
+        ],
+        [
+          "Grid",
+          "Transmission",
+          "15"
+        ],
+        [
+          "Grid",
+          "Distribution",
+          "20"
+        ],
+        [
+          "Grid",
+          "Meters",
+          "23"
+        ],
+        [
+          "Storage",
+          "Battery",
+          "10"
+        ],
+        [
+          "Storage",
+          "Pumped hydro",
+          "33"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-013",
+    "source_id": "ENB-SRC-013",
+    "user_question": "How do Gross Margin (%) and Net Margin (%) compare across company? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Company",
+        "Gross Margin (%)",
+        "Net Margin (%)"
+      ],
+      "rows": [
+        [
+          "AS",
+          "59.8",
+          "7.6"
+        ],
+        [
+          "DECK",
+          "57.7",
+          "18.7"
+        ],
+        [
+          "ONON",
+          "64.8",
+          "12.3"
+        ],
+        [
+          "NKE",
+          "42.9",
+          "6.7"
+        ],
+        [
+          "LULU",
+          "55.7",
+          "13.0"
+        ],
+        [
+          "VFC",
+          "54.8",
+          "2.7"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-014",
+    "source_id": "ENB-SRC-014",
+    "user_question": "How did SJB Return change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Month",
+        "SJB Return"
+      ],
+      "rows": [
+        [
+          "Jan 2022",
+          "+2.4%"
+        ],
+        [
+          "Apr 2022",
+          "+4.1%"
+        ],
+        [
+          "Jun 2022",
+          "+7.1%"
+        ],
+        [
+          "Jul 2022",
+          "-6.6%"
+        ],
+        [
+          "Aug 2022",
+          "+4.3%"
+        ],
+        [
+          "Sep 2022",
+          "+3.9%"
+        ],
+        [
+          "Oct 2022",
+          "-3.4%"
+        ],
+        [
+          "Nov 2022",
+          "-3.1%"
+        ],
+        [
+          "Dec 2022",
+          "+2.0%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-015",
+    "source_id": "ENB-SRC-015",
+    "user_question": "How did Stock Price change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Date",
+        "Stock Price"
+      ],
+      "rows": [
+        [
+          "2023-04-30",
+          "$27.69"
+        ],
+        [
+          "2023-07-31",
+          "$46.64"
+        ],
+        [
+          "2024-01-31",
+          "$61.42"
+        ],
+        [
+          "2024-07-31",
+          "$116.83"
+        ],
+        [
+          "2025-07-31",
+          "$177.63"
+        ],
+        [
+          "2025-10-31",
+          "$202.23"
+        ],
+        [
+          "2026-04-30",
+          "$199.34"
+        ],
+        [
+          "2026-07-31",
+          "$200.75"
+        ],
+        [
+          "2026-08-28",
+          "$217.55"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-016",
+    "source_id": "ENB-SRC-016",
+    "user_question": "How did Aug Start ($) change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Year",
+        "Aug Start ($)"
+      ],
+      "rows": [
+        [
+          "2016",
+          "86.00"
+        ],
+        [
+          "2017",
+          "110.49"
+        ],
+        [
+          "2018",
+          "163.00"
+        ],
+        [
+          "2019",
+          "225.33"
+        ],
+        [
+          "2020",
+          "371.91"
+        ],
+        [
+          "2021",
+          "610.92"
+        ],
+        [
+          "2022",
+          "476.86"
+        ],
+        [
+          "2023",
+          "545.94"
+        ],
+        [
+          "2024",
+          "547.90"
+        ],
+        [
+          "2025",
+          "557.40"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-017",
+    "source_id": "ENB-SRC-017",
+    "user_question": "How is Weight divided among the listed model entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Model",
+        "Weight"
+      ],
+      "rows": [
+        [
+          "Intraday Pattern",
+          "35%"
+        ],
+        [
+          "Momentum / AR(1)",
+          "20%"
+        ],
+        [
+          "VWAP Proxy",
+          "15%"
+        ],
+        [
+          "Mean Reversion (intraday)",
+          "15%"
+        ],
+        [
+          "Linear Regression (intraday)",
+          "15%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-018",
+    "source_id": "ENB-SRC-018",
+    "user_question": "How did EPS (USD) change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Quarter End",
+        "EPS (USD)"
+      ],
+      "rows": [
+        [
+          "Jul 2024",
+          "0.67"
+        ],
+        [
+          "Oct 2024",
+          "0.78"
+        ],
+        [
+          "Jan 2025",
+          "0.89"
+        ],
+        [
+          "Apr 2025",
+          "0.76"
+        ],
+        [
+          "Jul 2025",
+          "1.08"
+        ],
+        [
+          "Oct 2025",
+          "1.30"
+        ],
+        [
+          "Jan 2026",
+          "1.76"
+        ],
+        [
+          "Apr 2026",
+          "2.39"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-019",
+    "source_id": "ENB-SRC-019",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Aug 5, 2024",
+          "Judge Mehta's liability ruling"
+        ],
+        [
+          "Sep 2, 2025",
+          "Remedies decision issued"
+        ],
+        [
+          "Dec 2025",
+          "Final Judgment issued"
+        ],
+        [
+          "Jan 16, 2026",
+          "Google filed appeal"
+        ],
+        [
+          "Feb 3, 2026",
+          "DOJ cross-appealed"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-020",
+    "source_id": "ENB-SRC-020",
+    "user_question": "For each Risk Category, what are the listed Assessment, and Severity?",
+    "table": {
+      "headers": [
+        "Risk Category",
+        "Assessment",
+        "Severity"
+      ],
+      "rows": [
+        [
+          "Catalyst (Cybercab)",
+          "Launch imminent; bollard incident raises execution risk; binary outcome",
+          "🔴 High"
+        ],
+        [
+          "Valuation",
+          "358x P/E with collapsing margins; mean-reversion risk to ~$300 (Morningstar FV)",
+          "🔴 High"
+        ],
+        [
+          "Technical",
+          "Below all 3 MAs; MACD death cross active; $345 option-wall support at price",
+          "🟡 Medium"
+        ],
+        [
+          "Quant model",
+          "3 of 4 lenses bearish with 55-80% win-rates; abnormal-trading veto active",
+          "🟡 Medium"
+        ],
+        [
+          "Fundamental",
+          "Q2 margin collapse, negative FCF; but revenue recovering and EPS positive",
+          "🟡 Medium"
+        ],
+        [
+          "Positioning",
+          "Neutral fund flow; no institutional conviction either way",
+          "🟢 Low"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-021",
+    "source_id": "ENB-SRC-021",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Imaging",
+          "Scanners",
+          "8"
+        ],
+        [
+          "Imaging",
+          "Sensors",
+          "37"
+        ],
+        [
+          "Imaging",
+          "Software",
+          "8"
+        ],
+        [
+          "Monitoring",
+          "Wearables",
+          "9"
+        ],
+        [
+          "Monitoring",
+          "Remote hubs",
+          "37"
+        ],
+        [
+          "Monitoring",
+          "Analytics",
+          "22"
+        ],
+        [
+          "Surgical",
+          "Instruments",
+          "42"
+        ],
+        [
+          "Surgical",
+          "Robotics",
+          "23"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-022",
+    "source_id": "ENB-SRC-022",
+    "user_question": "For each Action, what are the listed Ticker, and Why?",
+    "table": {
+      "headers": [
+        "Action",
+        "Ticker",
+        "Why"
+      ],
+      "rows": [
+        [
+          "🔴 WATCH ANET AT $200",
+          "ANET",
+          "If it hits $200, sell 1 share (take half off), trail the rest"
+        ],
+        [
+          "🔴 WATCH AMZN APPROACHING $268",
+          "AMZN",
+          "$4.27 from entry zone — could trigger today if selloff continues"
+        ],
+        [
+          "⏳ WATCH SPYM APPROACHING $89",
+          "SPYM",
+          "$1.69 from DCA zone — prepare cash"
+        ],
+        [
+          "✅ HOLD GOOGL",
+          "GOOGL",
+          "Down 4% but thesis intact, support at ~$340"
+        ],
+        [
+          "✅ HOLD ALL 15 POSITIONS",
+          "—",
+          "No thesis breaks, no stop violations"
+        ],
+        [
+          "❌ NO SELLS",
+          "—",
+          "Nothing to trim except ANET at $200"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-023",
+    "source_id": "ENB-SRC-023",
+    "user_question": "How is Allocation divided among the listed stock entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Stock",
+        "Allocation"
+      ],
+      "rows": [
+        [
+          "MTN",
+          "30%"
+        ],
+        [
+          "GCB",
+          "25%"
+        ],
+        [
+          "EGH",
+          "20%"
+        ],
+        [
+          "GOIL",
+          "15%"
+        ],
+        [
+          "FML",
+          "10%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-024",
+    "source_id": "ENB-SRC-024",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Radio",
+          "Antennas",
+          "18"
+        ],
+        [
+          "Radio",
+          "Base stations",
+          "37"
+        ],
+        [
+          "Radio",
+          "Repeaters",
+          "13"
+        ],
+        [
+          "Core",
+          "Routing",
+          "10"
+        ],
+        [
+          "Core",
+          "Switching",
+          "8"
+        ],
+        [
+          "Core",
+          "Security",
+          "30"
+        ],
+        [
+          "Services",
+          "Deployment",
+          "34"
+        ],
+        [
+          "Services",
+          "Maintenance",
+          "37"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-025",
+    "source_id": "ENB-SRC-025",
+    "user_question": "For each Market, what are the listed Friday Close, Monday Level, Change, My Projection, and Accuracy?",
+    "table": {
+      "headers": [
+        "Market",
+        "Friday Close",
+        "Monday Level",
+        "Change",
+        "My Projection",
+        "Accuracy"
+      ],
+      "rows": [
+        [
+          "Nikkei 225",
+          "66,016",
+          "65,678",
+          "-0.5%",
+          "-0.5% to -1.0%",
+          "✅ On target (low end)"
+        ],
+        [
+          "Kospi",
+          "6,913",
+          "6,664",
+          "-3.5%",
+          "-0.5% to -1.0%",
+          "❌ MASSIVELY worse — 3.5x worst case"
+        ],
+        [
+          "Hang Seng",
+          "25,968",
+          "25,465",
+          "-2.1%",
+          "-0.5% to -1.0%",
+          "❌ 2x worst case"
+        ],
+        [
+          "Shanghai",
+          "3,905",
+          "3,877",
+          "-0.7%",
+          "Flat to -0.3%",
+          "❌ Worse"
+        ],
+        [
+          "ASX 200",
+          "9,270",
+          "9,107",
+          "+0.5%",
+          "Flat to +0.3%",
+          "✅ Better (energy stocks bid)"
+        ],
+        [
+          "Taiwan Taiex",
+          "—",
+          "—",
+          "-0.5%",
+          "—",
+          "N/A"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-026",
+    "source_id": "ENB-SRC-026",
+    "user_question": "How did EPS Surprise (%) change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Release Date",
+        "EPS Surprise (%)"
+      ],
+      "rows": [
+        [
+          "Jul 26, 2024",
+          "+15.57"
+        ],
+        [
+          "Oct 22, 2024",
+          "+4.21"
+        ],
+        [
+          "Jan 21, 2025",
+          "+0.60"
+        ],
+        [
+          "Apr 22, 2025",
+          "+7.43"
+        ],
+        [
+          "Jul 18, 2025",
+          "+7.46"
+        ],
+        [
+          "Oct 21, 2025",
+          "+5.80"
+        ],
+        [
+          "Jan 20, 2026",
+          "+1.67"
+        ],
+        [
+          "Apr 21, 2026",
+          "+8.08"
+        ],
+        [
+          "Jul 21, 2026",
+          "+7.14"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-027",
+    "source_id": "ENB-SRC-027",
+    "user_question": "How do the entries compare on Avg Return? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Analyst",
+        "Avg Return"
+      ],
+      "rows": [
+        [
+          "John Difucci",
+          "+15.93%"
+        ],
+        [
+          "Charles Shi",
+          "+7.97%"
+        ],
+        [
+          "Joseph Quatrochi",
+          "+6.92%"
+        ],
+        [
+          "Timothy Arcuri",
+          "-3.37%"
+        ],
+        [
+          "John Vinh",
+          "+3.58%"
+        ],
+        [
+          "Krish Sankar",
+          "-3.96%"
+        ],
+        [
+          "Frank Lee",
+          "-0.90%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-028",
+    "source_id": "ENB-SRC-028",
+    "user_question": "How is Weight (%) distributed across industry sub-sector and holding? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Industry Sub-Sector",
+        "Holding",
+        "Weight (%)"
+      ],
+      "rows": [
+        [
+          "Interactive Media & Services",
+          "Meta Platforms (META)",
+          "16.76"
+        ],
+        [
+          "Interactive Media & Services",
+          "Alphabet Class A (GOOGL)",
+          "10.36"
+        ],
+        [
+          "Interactive Media & Services",
+          "Alphabet Class C (GOOG)",
+          "8.27"
+        ],
+        [
+          "Diversified Telecommunication Services",
+          "AT&T (T)",
+          "5.17"
+        ],
+        [
+          "Diversified Telecommunication Services",
+          "Verizon (VZ)",
+          "4.97"
+        ],
+        [
+          "Media",
+          "Comcast (CMCSA)",
+          "4.83"
+        ],
+        [
+          "Entertainment",
+          "Walt Disney (DIS)",
+          "4.80"
+        ],
+        [
+          "Entertainment",
+          "Netflix (NFLX)",
+          "4.80"
+        ],
+        [
+          "Entertainment",
+          "Warner Bros Discovery (WBD)",
+          "4.72"
+        ],
+        [
+          "Media",
+          "Omnicom (OMC)",
+          "4.56"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-029",
+    "source_id": "ENB-SRC-029",
+    "user_question": "How is Weight divided among the listed holding entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Holding",
+        "Weight"
+      ],
+      "rows": [
+        [
+          "2644 (HK Japan Semi)",
+          "26.12%"
+        ],
+        [
+          "PSI (US Intellidex)",
+          "24.75%"
+        ],
+        [
+          "3119 (Asia Semi, synthetic)",
+          "24.71%"
+        ],
+        [
+          "282A (Tokyo Japan Top 10)",
+          "18.01%"
+        ],
+        [
+          "Cash",
+          "6.40%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-030",
+    "source_id": "ENB-SRC-030",
+    "user_question": "How do the entries compare on Target %? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Fund",
+        "Target %"
+      ],
+      "rows": [
+        [
+          "NYSDCB Equity Index",
+          "30%"
+        ],
+        [
+          "Boston Partners Large Cap Value",
+          "15%"
+        ],
+        [
+          "NYSDCB DJ Completion Index",
+          "12%"
+        ],
+        [
+          "Fidelity Global ex U.S. (FSGGX)",
+          "13%"
+        ],
+        [
+          "Fidelity OTC K",
+          "8%"
+        ],
+        [
+          "NYSDCB U.S. Debt Index",
+          "12%"
+        ],
+        [
+          "Stable Income Fund",
+          "10%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-031",
+    "source_id": "ENB-SRC-031",
+    "user_question": "For each Milestone, what are the listed Date, Status, and Significance?",
+    "table": {
+      "headers": [
+        "Milestone",
+        "Date",
+        "Status",
+        "Significance"
+      ],
+      "rows": [
+        [
+          "Negotiations relaunched",
+          "January 2025",
+          "✅ Complete",
+          "PM Anwar Ibrahim visited Brussels; formal resumption"
+        ],
+        [
+          "Round 1 (Brussels)",
+          "June–July 2025",
+          "✅ Complete",
+          "Preliminary agreement on dispute settlement, rules of origin, SMEs"
+        ],
+        [
+          "Round 2 (Kuala Lumpur)",
+          "November 2025",
+          "✅ Complete",
+          "Very good progress; sustainable food systems chapter near closure"
+        ],
+        [
+          "Round 3 (Brussels)",
+          "February 2026",
+          "✅ Complete",
+          "Satisfactory overall; text consolidation across chapters"
+        ],
+        [
+          "Round 4 (Kuala Lumpur)",
+          "June 8–12, 2026",
+          "✅ Complete",
+          "Three more chapters closed"
+        ],
+        [
+          "Target conclusion",
+          "October 2027",
+          "🔄 In progress",
+          "50th anniversary of EU–ASEAN relations; EU commissioner expects signature by 2026"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-032",
+    "source_id": "ENB-SRC-032",
+    "user_question": "How did Distribution/Share change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Month",
+        "Distribution/Share"
+      ],
+      "rows": [
+        [
+          "Jan 2026",
+          "$0.58"
+        ],
+        [
+          "Feb 2026",
+          "$0.47"
+        ],
+        [
+          "Mar 2026",
+          "$0.51"
+        ],
+        [
+          "Apr 2026",
+          "$0.56"
+        ],
+        [
+          "May 2026",
+          "$0.59"
+        ],
+        [
+          "Jun 2026",
+          "$0.56"
+        ],
+        [
+          "Jul 2026",
+          "$0.64"
+        ],
+        [
+          "Aug 2026",
+          "$0.71"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-033",
+    "source_id": "ENB-SRC-033",
+    "user_question": "How does the mix of Solar (%), Wind (%), Hydro (%), and Storage (%) differ across region?",
+    "table": {
+      "headers": [
+        "Region",
+        "Solar (%)",
+        "Wind (%)",
+        "Hydro (%)",
+        "Storage (%)"
+      ],
+      "rows": [
+        [
+          "Area A",
+          "21",
+          "26",
+          "17",
+          "36"
+        ],
+        [
+          "Area B",
+          "23",
+          "18",
+          "20",
+          "39"
+        ],
+        [
+          "Area C",
+          "19",
+          "23",
+          "18",
+          "40"
+        ],
+        [
+          "Area D",
+          "28",
+          "23",
+          "13",
+          "36"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-034",
+    "source_id": "ENB-SRC-034",
+    "user_question": "How do Price Aug 2021 ($) and Price Aug 2026 ($) compare across ticker? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Ticker",
+        "Price Aug 2021 ($)",
+        "Price Aug 2026 ($)"
+      ],
+      "rows": [
+        [
+          "WMT",
+          "50.25",
+          "115.27"
+        ],
+        [
+          "COST",
+          "452.86",
+          "961.10"
+        ],
+        [
+          "MELI",
+          "1795.00",
+          "1844.58"
+        ],
+        [
+          "TJX",
+          "70.35",
+          "152.11"
+        ],
+        [
+          "AMZN",
+          "164.95",
+          "262.65"
+        ],
+        [
+          "DKS",
+          "111.74",
+          "201.97"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-035",
+    "source_id": "ENB-SRC-035",
+    "user_question": "How is Allocation divided among the listed etf entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "ETF",
+        "Allocation"
+      ],
+      "rows": [
+        [
+          "VTI",
+          "40%"
+        ],
+        [
+          "SCHD",
+          "25%"
+        ],
+        [
+          "RSP",
+          "15%"
+        ],
+        [
+          "VXUS",
+          "10%"
+        ],
+        [
+          "SGOV",
+          "10%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-036",
+    "source_id": "ENB-SRC-036",
+    "user_question": "How is Allocation divided among the listed token entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Token",
+        "Allocation"
+      ],
+      "rows": [
+        [
+          "SOL",
+          "30%"
+        ],
+        [
+          "LINK",
+          "25%"
+        ],
+        [
+          "AAVE",
+          "20%"
+        ],
+        [
+          "TAO",
+          "15%"
+        ],
+        [
+          "RENDER",
+          "10%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-037",
+    "source_id": "ENB-SRC-037",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "May 2025",
+          "Coalition petitions filed against China, Indonesia, Vietnam"
+        ],
+        [
+          "Jan 16, 2026",
+          "Commerce preliminary CVD: China 81.34%, Vietnam 4.37–26.75%, Indonesia 2.40–128.66%"
+        ],
+        [
+          "Feb 2026",
+          "Preliminary AD: China dumping margin 187.27%"
+        ],
+        [
+          "Aug 19, 2026",
+          "USITC affirmative injury vote — all three countries"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-038",
+    "source_id": "ENB-SRC-038",
+    "user_question": "How do the entries compare on P/S TTM (x)? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Ticker",
+        "P/S TTM (x)"
+      ],
+      "rows": [
+        [
+          "META",
+          "6.1"
+        ],
+        [
+          "MSFT",
+          "10.8"
+        ],
+        [
+          "NVDA",
+          "20.7"
+        ],
+        [
+          "AVGO",
+          "23.0"
+        ],
+        [
+          "AMD",
+          "18.6"
+        ],
+        [
+          "PLTR",
+          "67.9"
+        ],
+        [
+          "TSLA",
+          "13.2"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-039",
+    "source_id": "ENB-SRC-039",
+    "user_question": "How does the mix of SK Hynix, Samsung, and Micron differ across period?",
+    "table": {
+      "headers": [
+        "Period",
+        "SK Hynix",
+        "Samsung",
+        "Micron"
+      ],
+      "rows": [
+        [
+          "Q1 2025",
+          "69%",
+          "13%",
+          "18%"
+        ],
+        [
+          "Q2 2025",
+          "64%",
+          "15%",
+          "21%"
+        ],
+        [
+          "Q3 2025",
+          "56%",
+          "23%",
+          "21%"
+        ],
+        [
+          "Q4 2025",
+          "57%",
+          "22%",
+          "21%"
+        ],
+        [
+          "Q1 2026",
+          "58%",
+          "21%",
+          "21%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-040",
+    "source_id": "ENB-SRC-040",
+    "user_question": "How does the mix of Domestic (%), Export (%), License (%), and Services (%) differ across division?",
+    "table": {
+      "headers": [
+        "Division",
+        "Domestic (%)",
+        "Export (%)",
+        "License (%)",
+        "Services (%)"
+      ],
+      "rows": [
+        [
+          "Division A",
+          "26",
+          "26",
+          "12",
+          "36"
+        ],
+        [
+          "Division B",
+          "30",
+          "25",
+          "13",
+          "32"
+        ],
+        [
+          "Division C",
+          "24",
+          "24",
+          "14",
+          "38"
+        ],
+        [
+          "Division D",
+          "26",
+          "25",
+          "17",
+          "32"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-041",
+    "source_id": "ENB-SRC-041",
+    "user_question": "How do the entries compare on Avg Return? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Analyst",
+        "Avg Return"
+      ],
+      "rows": [
+        [
+          "Christoph Kotowski",
+          "+4.63%"
+        ],
+        [
+          "Stephen Biggar",
+          "+10.61%"
+        ],
+        [
+          "Bart Dziarski",
+          "+1.89%"
+        ],
+        [
+          "Bill Katz",
+          "-4.82%"
+        ],
+        [
+          "Kenneth Worthington",
+          "-3.34%"
+        ],
+        [
+          "Alexander Blostein",
+          "+7.87%"
+        ],
+        [
+          "Benjamin Budish",
+          "-2.39%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-042",
+    "source_id": "ENB-SRC-042",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Dec 2024",
+          "Received deficiency letter — stockholders' equity only $2.2M (minimum: $6M)"
+        ],
+        [
+          "Mar 2025",
+          "Submitted compliance plan; NYSE granted extension to Jun 18, 2026"
+        ],
+        [
+          "Oct 2025",
+          "Regained compliance on stockholders' equity; \".BC\" designation removed"
+        ],
+        [
+          "Aug 14, 2026",
+          "Stock at $0.10 — 10x below $1.00 minimum bid price"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-043",
+    "source_id": "ENB-SRC-043",
+    "user_question": "How does the mix of Core (%), Growth (%), Legacy (%), and Other (%) differ across quarter?",
+    "table": {
+      "headers": [
+        "Quarter",
+        "Core (%)",
+        "Growth (%)",
+        "Legacy (%)",
+        "Other (%)"
+      ],
+      "rows": [
+        [
+          "Q1",
+          "28",
+          "19",
+          "15",
+          "38"
+        ],
+        [
+          "Q2",
+          "27",
+          "19",
+          "16",
+          "38"
+        ],
+        [
+          "Q3",
+          "20",
+          "28",
+          "17",
+          "35"
+        ],
+        [
+          "Q4",
+          "19",
+          "18",
+          "14",
+          "49"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-044",
+    "source_id": "ENB-SRC-044",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Aug 2018",
+          "Delisted from Nasdaq for failing to file financial statements"
+        ],
+        [
+          "Aug 2020",
+          "SEC charges for \"widespread accounting violations\" — $200M+ improperly recognized revenue"
+        ],
+        [
+          "Aug 2024",
+          "Hindenburg Research report alleging accounting fraud, related-party dealings, sanctions evasion"
+        ],
+        [
+          "Oct 2024",
+          "Auditor Ernst & Young resigns, citing inability to rely on management representations"
+        ],
+        [
+          "Feb 2025",
+          "Filed delayed reports with BDO as new auditor; regained Nasdaq compliance"
+        ],
+        [
+          "Mar 2026",
+          "Co-founder Wally Liaw arrested for allegedly smuggling $2.5B in AI servers to China"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-045",
+    "source_id": "ENB-SRC-045",
+    "user_question": "For each Category, what are the listed What It Does, and Examples?",
+    "table": {
+      "headers": [
+        "Category",
+        "What It Does",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "DEXs (Decentralized Exchanges)",
+          "Trade tokens without an order book or broker",
+          "Uniswap, Curve, PancakeSwap"
+        ],
+        [
+          "Lending/Borrowing",
+          "Deposit to earn yield; borrow against collateral",
+          "Aave, Compound"
+        ],
+        [
+          "Stablecoins",
+          "Crypto tokens pegged to fiat (usually USD)",
+          "USDC, DAI, USDT"
+        ],
+        [
+          "Liquid Staking",
+          "Stake assets for yield while keeping them liquid",
+          "Lido, Rocket Pool"
+        ],
+        [
+          "Yield Aggregators",
+          "Auto-route deposits to highest-yield protocols",
+          "Yearn Finance"
+        ],
+        [
+          "Derivatives",
+          "Perps, options, synthetics on-chain",
+          "dYdX, GMX"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-046",
+    "source_id": "ENB-SRC-046",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Feb 2026",
+          "$1.60 support breaks"
+        ],
+        [
+          "Mar 17, 2026",
+          "XRP spikes to $1.60 (SEC/CFTC commodity classification)"
+        ],
+        [
+          "Apr 17, 2026",
+          "XRP hits $1.51 (Rakuten/Ripple-Kyobo/wrapped XRP catalysts)"
+        ],
+        [
+          "Aug 22, 2026",
+          "XRP breaks $1.60 → $1.6271"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-047",
+    "source_id": "ENB-SRC-047",
+    "user_question": "How did CapEx (100M USD) change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Fiscal Year",
+        "CapEx (100M USD)"
+      ],
+      "rows": [
+        [
+          "2015",
+          "0.97"
+        ],
+        [
+          "2017",
+          "1.43"
+        ],
+        [
+          "2018",
+          "1.74"
+        ],
+        [
+          "2021",
+          "3.18"
+        ],
+        [
+          "2022",
+          "2.70"
+        ],
+        [
+          "2023",
+          "2.19"
+        ],
+        [
+          "2024",
+          "1.66"
+        ],
+        [
+          "2025",
+          "1.53"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-048",
+    "source_id": "ENB-SRC-048",
+    "user_question": "How does the mix of New (%), Renewal (%), Upsell (%), and Other (%) differ across channel?",
+    "table": {
+      "headers": [
+        "Channel",
+        "New (%)",
+        "Renewal (%)",
+        "Upsell (%)",
+        "Other (%)"
+      ],
+      "rows": [
+        [
+          "Retail",
+          "21",
+          "24",
+          "12",
+          "43"
+        ],
+        [
+          "Wholesale",
+          "25",
+          "23",
+          "16",
+          "36"
+        ],
+        [
+          "Online",
+          "22",
+          "25",
+          "20",
+          "33"
+        ],
+        [
+          "Enterprise",
+          "20",
+          "28",
+          "20",
+          "32"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-049",
+    "source_id": "ENB-SRC-049",
+    "user_question": "How did Revenue ($M) change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Quarter",
+        "Revenue ($M)"
+      ],
+      "rows": [
+        [
+          "2024 Q3",
+          "131.6"
+        ],
+        [
+          "2024 Q4",
+          "214.4"
+        ],
+        [
+          "2025 Q1",
+          "213.9"
+        ],
+        [
+          "2025 Q2",
+          "238.5"
+        ],
+        [
+          "2025 Q3",
+          "252.4"
+        ],
+        [
+          "2025 Q4",
+          "202.3"
+        ],
+        [
+          "2026 Q1",
+          "174.6"
+        ],
+        [
+          "2026 Q2",
+          "174.9"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-050",
+    "source_id": "ENB-SRC-050",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Nov 18, 2025",
+          "1-for-10 reverse split executed"
+        ],
+        [
+          "Feb 4, 2026",
+          "Nasdaq delisting notice (no compliance period due to prior reverse split within 1 year)"
+        ],
+        [
+          "Apr 10, 2026",
+          "Delisted from Nasdaq; moves to OTC"
+        ],
+        [
+          "Apr 13, 2026",
+          "Shareholder approval for second reverse split (1-for-10 to 1-for-25)"
+        ],
+        [
+          "Apr 24, 2026",
+          "Begins trading on OTCQB Venture Market"
+        ],
+        [
+          "Jul 1, 2026",
+          "ELOC Amendment: White Lion receives 9,850,000 commitment securities; purchase price formula deepened"
+        ],
+        [
+          "Jul 7, 2026",
+          "S-1 prospectus dated — 15,850,000 shares registered for White Lion resale"
+        ],
+        [
+          "Jul 27, 2026",
+          "White Lion files Form 4: sold 210,561 shares at $0.07, retains 3,850,000 pre-funded warrant shares"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-051",
+    "source_id": "ENB-SRC-051",
+    "user_question": "How do the entries compare on Ann. return (%)? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "High-yield holding",
+        "Ann. return (%)"
+      ],
+      "rows": [
+        [
+          "HOOY",
+          "-20.8"
+        ],
+        [
+          "BLOX",
+          "-6.5"
+        ],
+        [
+          "CHPY",
+          "+31.5"
+        ],
+        [
+          "EGGY",
+          "-7.7"
+        ],
+        [
+          "KQQQ",
+          "+38.3"
+        ],
+        [
+          "TSPY",
+          "+28.0"
+        ],
+        [
+          "XQQI",
+          "+22.3"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-052",
+    "source_id": "ENB-SRC-052",
+    "user_question": "For each Symptom, what are the listed Root Cause, Affected Tickers, and Score Impact?",
+    "table": {
+      "headers": [
+        "Symptom",
+        "Root Cause",
+        "Affected Tickers",
+        "Score Impact"
+      ],
+      "rows": [
+        [
+          "Drift reason always heuristic",
+          "runphase2 drops drift field",
+          "All 51",
+          "Some may be missing +1 (large drift ≥5%)"
+        ],
+        [
+          "Catalyst bias always NEUTRAL",
+          "No IT entries in catalystdata.json",
+          "All 51",
+          "None — NEUTRAL = score 1 (default)"
+        ],
+        [
+          "Crush risk always UNKNOWN",
+          "Same — no catalyst data",
+          "All 51",
+          "Minimal — UNKNOWN defaults to score 1"
+        ],
+        [
+          "Days to earnings empty",
+          "Same",
+          "All 51",
+          "No direct score impact"
+        ],
+        [
+          "No upcoming catalysts",
+          "Same",
+          "All 51",
+          "No catalyst-driven runway adjustments"
+        ],
+        [
+          "No sector/stock news",
+          "Same",
+          "All 51",
+          "No newsbias, no eventseverity"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-053",
+    "source_id": "ENB-SRC-053",
+    "user_question": "How do YTD Return (%) and 3-Month Return (%) compare across stock? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Stock",
+        "YTD Return (%)",
+        "3-Month Return (%)"
+      ],
+      "rows": [
+        [
+          "NUE",
+          "+60.31",
+          "+16.65"
+        ],
+        [
+          "TSM",
+          "+38.00",
+          "+4.41"
+        ],
+        [
+          "GE",
+          "+20.30",
+          "+31.15"
+        ],
+        [
+          "GOOGL",
+          "+9.67",
+          "-13.29"
+        ],
+        [
+          "MCK",
+          "+5.07",
+          "+12.02"
+        ],
+        [
+          "NFLX",
+          "-17.07",
+          "-13.25"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-054",
+    "source_id": "ENB-SRC-054",
+    "user_question": "How do the entries compare on Today's Gain (%)? Which leads, and by how much over second place?",
+    "table": {
+      "headers": [
+        "Ticker",
+        "Today's Gain (%)"
+      ],
+      "rows": [
+        [
+          "SNDK",
+          "+2.12%"
+        ],
+        [
+          "AMZN",
+          "+1.31%"
+        ],
+        [
+          "MSFT",
+          "+1.21%"
+        ],
+        [
+          "BAC",
+          "+1.09%"
+        ],
+        [
+          "GOOGL",
+          "+0.90%"
+        ],
+        [
+          "CNC",
+          "+0.91%"
+        ],
+        [
+          "DXCM",
+          "+2.26%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-055",
+    "source_id": "ENB-SRC-055",
+    "user_question": "How do the entries compare on Avg Return? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Analyst",
+        "Avg Return"
+      ],
+      "rows": [
+        [
+          "Atul Maheswari",
+          "+1.19%"
+        ],
+        [
+          "Jamie Baker",
+          "-0.09%"
+        ],
+        [
+          "John Godyn",
+          "-1.11%"
+        ],
+        [
+          "Christopher Stathoulopoulos",
+          "-3.34%"
+        ],
+        [
+          "Conor Cunningham",
+          "-13.08%"
+        ],
+        [
+          "Michael Goldie",
+          "-1.93%"
+        ],
+        [
+          "Catherine Harrison",
+          "-6.30%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-056",
+    "source_id": "ENB-SRC-056",
+    "user_question": "How does the mix of Bull, Base, and Bear differ across horizon?",
+    "table": {
+      "headers": [
+        "Horizon",
+        "Bull",
+        "Base",
+        "Bear"
+      ],
+      "rows": [
+        [
+          "1 Day",
+          "25%",
+          "50%",
+          "25%"
+        ],
+        [
+          "1 Week",
+          "20%",
+          "50%",
+          "30%"
+        ],
+        [
+          "1 Month",
+          "25%",
+          "45%",
+          "30%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-057",
+    "source_id": "ENB-SRC-057",
+    "user_question": "How did Price change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Date",
+        "Price"
+      ],
+      "rows": [
+        [
+          "2025-03-10",
+          "$50.12"
+        ],
+        [
+          "2025-08-04",
+          "$54.39"
+        ],
+        [
+          "2025-12-01",
+          "$49.93"
+        ],
+        [
+          "2025-12-15",
+          "$50.41"
+        ],
+        [
+          "2026-03-16",
+          "$48.65"
+        ],
+        [
+          "2026-04-27",
+          "$46.80"
+        ],
+        [
+          "2026-05-04",
+          "$47.25"
+        ],
+        [
+          "2026-07-06",
+          "$46.63"
+        ],
+        [
+          "2026-07-13",
+          "$46.70"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-058",
+    "source_id": "ENB-SRC-058",
+    "user_question": "How do Entry Price (Reno) and Current Price compare across stock? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Stock",
+        "Entry Price (Reno)",
+        "Current Price"
+      ],
+      "rows": [
+        [
+          "XOM",
+          "$122",
+          "$160.10"
+        ],
+        [
+          "CVX",
+          "$155",
+          "$200.00"
+        ],
+        [
+          "ECHO",
+          "$29",
+          "$91.89"
+        ],
+        [
+          "IRDM",
+          "$51.76",
+          "$50.20"
+        ],
+        [
+          "SPCX",
+          "~$135",
+          "$140.00"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-059",
+    "source_id": "ENB-SRC-059",
+    "user_question": "How do the entries compare on Net Margin (%)? Which leads, and by how much over second place?",
+    "table": {
+      "headers": [
+        "Ticker",
+        "Net Margin (%)"
+      ],
+      "rows": [
+        [
+          "ARWR",
+          "-32.4"
+        ],
+        [
+          "BEAM",
+          "-673.3"
+        ],
+        [
+          "NTLA",
+          "-893.4"
+        ],
+        [
+          "NRIX",
+          "-1155.3"
+        ],
+        [
+          "RLAY",
+          "-4686.5"
+        ],
+        [
+          "CCCC",
+          "-381.2"
+        ],
+        [
+          "OCGN",
+          "-1457.8"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-060",
+    "source_id": "ENB-SRC-060",
+    "user_question": "For each Risk Category, what are the listed Likelihood, Impact, and Transmission?",
+    "table": {
+      "headers": [
+        "Risk Category",
+        "Likelihood",
+        "Impact",
+        "Transmission"
+      ],
+      "rows": [
+        [
+          "Tariff escalation (India iPhones)",
+          "Medium-High",
+          "High",
+          "Gross margin compression 200-400bps; price increases demand-elastic"
+        ],
+        [
+          "Siri AI underwhelms / China blocked",
+          "Medium",
+          "High",
+          "Upgrade cycle disappoints → forward P/E compresses toward 25x"
+        ],
+        [
+          "Google search deal terminated",
+          "Medium",
+          "Medium-High",
+          "~20% of operating profit at risk; offsetting cost = minimal"
+        ],
+        [
+          "CEO transition stumble",
+          "Low-Medium",
+          "Medium",
+          "Execution risk under new leadership; moratorium on strategic shifts"
+        ],
+        [
+          "App Store fee reduction",
+          "Medium",
+          "Medium",
+          "Services revenue growth slows from 12% to mid-single digits"
+        ],
+        [
+          "Antitrust / regulatory (EU, US)",
+          "Medium",
+          "Medium",
+          "Forced side-loading, alternative app stores, NFC access mandates"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-061",
+    "source_id": "ENB-SRC-061",
+    "user_question": "How did Comp Sales YoY change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Month",
+        "Comp Sales YoY"
+      ],
+      "rows": [
+        [
+          "Aug 2025",
+          "+12.2%"
+        ],
+        [
+          "Sep 2025",
+          "+6.9%"
+        ],
+        [
+          "Oct 2025",
+          "+5.1%"
+        ],
+        [
+          "Mar 2026",
+          "+7.0%"
+        ],
+        [
+          "Apr 2026",
+          "+0.2%"
+        ],
+        [
+          "May 2026",
+          "+2.2%"
+        ],
+        [
+          "Jun 2026",
+          "+2.4%"
+        ],
+        [
+          "Jul 2026",
+          "+1.6%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-062",
+    "source_id": "ENB-SRC-062",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Jan 27, 2026",
+          "Fog Computing AI infrastructure agreement"
+        ],
+        [
+          "Apr 6, 2026",
+          "Aurora Energy natural gas compute JV"
+        ],
+        [
+          "Apr 24, 2026",
+          "Georgia AI center construction completed"
+        ],
+        [
+          "Jun 2026",
+          "$28M private placement closed"
+        ],
+        [
+          "Jul 29, 2026",
+          "Wei Sun hired as Chief AI Business Growth Officer"
+        ],
+        [
+          "Aug 19, 2026",
+          "Volume explosion begins — opened $0.48, spiked to $1.32, closed $0.84"
+        ],
+        [
+          "Aug 20, 2026",
+          "+72.1% surge — the headline day"
+        ],
+        [
+          "Aug 21, 2026 (today)",
+          "Trading at $1.45, -0.71% on 9.9M volume"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-063",
+    "source_id": "ENB-SRC-063",
+    "user_question": "For each Method, what are the listed Value, and Assessment?",
+    "table": {
+      "headers": [
+        "Method",
+        "Value",
+        "Assessment"
+      ],
+      "rows": [
+        [
+          "P/E (TTM)",
+          "23.72x",
+          "Below 5-year average of ~28-30x"
+        ],
+        [
+          "P/E 2027E",
+          "~19x",
+          "Wolfe Research: \"screams buy!\""
+        ],
+        [
+          "EV/EBITDA",
+          "~15.5x 2027E",
+          "BMO: 35% discount to 5-year average"
+        ],
+        [
+          "P/S",
+          "~6.7x",
+          "Premium for media, justified by 13% growth + ad ramp"
+        ],
+        [
+          "FCF Yield (NTM)",
+          "~3.3%",
+          "Rare for double-digit growth company"
+        ],
+        [
+          "Analyst Target Range",
+          "$107-$135",
+          "Avg ~$115, implying ~48% upside from $77.77"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-064",
+    "source_id": "ENB-SRC-064",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "April 2026",
+          "Bids opened, Yinson initially tipped to win"
+        ],
+        [
+          "May 15, 2026",
+          "Price bids opened — market sources then tipped Bumi Armada due to lower price"
+        ],
+        [
+          "June 2026",
+          "FID originally expected — did not happen"
+        ],
+        [
+          "July 14, 2026",
+          "Upstream Online reports \"Front runner emerges\" (Yinson) despite Bumi Armada's lower price"
+        ],
+        [
+          "August 4, 2026",
+          "SKK Migas confirms FID pushed to September 2026"
+        ],
+        [
+          "August 12, 2026",
+          "Indonesia gov't confirms reviewing FPSO vs. onshore processing"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-065",
+    "source_id": "ENB-SRC-065",
+    "user_question": "How do the entries compare on % of Weekly Buy? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Ticker",
+        "% of Weekly Buy"
+      ],
+      "rows": [
+        [
+          "AVUV",
+          "30%"
+        ],
+        [
+          "AVUS",
+          "25%"
+        ],
+        [
+          "SCHD",
+          "15%"
+        ],
+        [
+          "VXUS",
+          "10%"
+        ],
+        [
+          "CIBR",
+          "10%"
+        ],
+        [
+          "DBMF",
+          "5%"
+        ],
+        [
+          "Metals accumulation",
+          "5%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-066",
+    "source_id": "ENB-SRC-066",
+    "user_question": "How is Allocation divided among the listed stock entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Stock",
+        "Allocation"
+      ],
+      "rows": [
+        [
+          "Eicher Motors",
+          "35%"
+        ],
+        [
+          "Indian Bank",
+          "30%"
+        ],
+        [
+          "Solar Industries",
+          "20%"
+        ],
+        [
+          "HAL",
+          "15%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-067",
+    "source_id": "ENB-SRC-067",
+    "user_question": "How is Allocation divided among the listed token entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Token",
+        "Allocation"
+      ],
+      "rows": [
+        [
+          "KGEN",
+          "30%"
+        ],
+        [
+          "DIMO",
+          "25%"
+        ],
+        [
+          "PARTI",
+          "15%"
+        ],
+        [
+          "TAO",
+          "25%"
+        ],
+        [
+          "USDT reserve",
+          "5%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-068",
+    "source_id": "ENB-SRC-068",
+    "user_question": "How does the mix of Direct (%), Partner (%), Online (%), and Other (%) differ across region?",
+    "table": {
+      "headers": [
+        "Region",
+        "Direct (%)",
+        "Partner (%)",
+        "Online (%)",
+        "Other (%)"
+      ],
+      "rows": [
+        [
+          "North",
+          "24",
+          "25",
+          "17",
+          "34"
+        ],
+        [
+          "South",
+          "22",
+          "23",
+          "20",
+          "35"
+        ],
+        [
+          "East",
+          "24",
+          "20",
+          "19",
+          "37"
+        ],
+        [
+          "West",
+          "18",
+          "18",
+          "17",
+          "47"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-069",
+    "source_id": "ENB-SRC-069",
+    "user_question": "How do the entries compare on Since Aug 7? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "ETF",
+        "Since Aug 7"
+      ],
+      "rows": [
+        [
+          "Xtrackers MSCI Brazil",
+          "-6.08%"
+        ],
+        [
+          "Xtrackers FTSE Vietnam",
+          "-3.92%"
+        ],
+        [
+          "iShares Global Water",
+          "-3.01%"
+        ],
+        [
+          "Global X Copper Miners",
+          "-2.88%"
+        ],
+        [
+          "VanEck Semiconductor",
+          "-2.80%"
+        ],
+        [
+          "iShares European Property Yield",
+          "-2.75%"
+        ],
+        [
+          "Xtrackers MSCI Philippines",
+          "-2.57%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-070",
+    "source_id": "ENB-SRC-070",
+    "user_question": "How do Gross Margin (MRQ) and Operating Margin (MRQ) compare across company? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Company",
+        "Gross Margin (MRQ)",
+        "Operating Margin (MRQ)"
+      ],
+      "rows": [
+        [
+          "TSLA",
+          "16.83%",
+          "1.41%"
+        ],
+        [
+          "BYD",
+          "18.81%",
+          "4.78%"
+        ],
+        [
+          "NIO",
+          "19.03%",
+          "-1.21%"
+        ],
+        [
+          "XPEV",
+          "20.58%",
+          "-14.38%"
+        ],
+        [
+          "LI",
+          "7.87%",
+          "-13.05%"
+        ],
+        [
+          "RIVN",
+          "10.80%",
+          "-50.42%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-071",
+    "source_id": "ENB-SRC-071",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Milestone"
+      ],
+      "rows": [
+        [
+          "Dec 2022",
+          "Phase 2b KEYNOTE-942 primary"
+        ],
+        [
+          "2023",
+          "3-year follow-up"
+        ],
+        [
+          "Jan 2026",
+          "5-year follow-up"
+        ],
+        [
+          "Aug 19, 2026",
+          "Phase 3 INTerpath-001 interim"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-072",
+    "source_id": "ENB-SRC-072",
+    "user_question": "For each Risk Dimension, what are the listed Layered Income Sleeve, and 60/40 BKLC/BKAG?",
+    "table": {
+      "headers": [
+        "Risk Dimension",
+        "Layered Income Sleeve",
+        "60/40 BKLC/BKAG"
+      ],
+      "rows": [
+        [
+          "Income covers margin cost?",
+          "✅ Yes (1.20% surplus)",
+          "❌ No (-2.61% deficit)"
+        ],
+        [
+          "What happens in a flat market?",
+          "You still earn +1.20% carry",
+          "You lose 2.61%/year"
+        ],
+        [
+          "What happens in a down market?",
+          "Income holds, margin paused at -15%",
+          "Losses amplified + negative carry"
+        ],
+        [
+          "What happens in a crash?",
+          "Floor layer + SGOV buffer",
+          "BKLC drops 30-50% (equity beta)"
+        ],
+        [
+          "Primary return source",
+          "Contractual distributions",
+          "Capital appreciation"
+        ],
+        [
+          "BKAG 5-year return",
+          "—",
+          "-1.10% annualized"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-073",
+    "source_id": "ENB-SRC-073",
+    "user_question": "How do the entries compare on Op Margin (%)? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Company",
+        "Op Margin (%)"
+      ],
+      "rows": [
+        [
+          "ZETA",
+          "3.8"
+        ],
+        [
+          "HUBS",
+          "1.9"
+        ],
+        [
+          "TWLO",
+          "4.6"
+        ],
+        [
+          "MDB",
+          "-4.2"
+        ],
+        [
+          "DDOG",
+          "-0.7"
+        ],
+        [
+          "SNOW",
+          "-26.1"
+        ],
+        [
+          "PLTR",
+          "42.8"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-074",
+    "source_id": "ENB-SRC-074",
+    "user_question": "How do Gross Margin (%) and Op. Margin (%) compare across company? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Company",
+        "Gross Margin (%)",
+        "Op. Margin (%)"
+      ],
+      "rows": [
+        [
+          "NVDA",
+          "75.0",
+          "66.2"
+        ],
+        [
+          "TER",
+          "59.8",
+          "32.9"
+        ],
+        [
+          "ROK",
+          "49.5",
+          "20.8"
+        ],
+        [
+          "Fanuc",
+          "38.4",
+          "21.8"
+        ],
+        [
+          "ABB",
+          "~37.0",
+          "~15.5"
+        ],
+        [
+          "TSLA",
+          "16.8",
+          "1.4"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-075",
+    "source_id": "ENB-SRC-075",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Stores",
+          "Flagship",
+          "42"
+        ],
+        [
+          "Stores",
+          "Neighborhood",
+          "12"
+        ],
+        [
+          "Stores",
+          "Outlet",
+          "32"
+        ],
+        [
+          "Digital",
+          "Website",
+          "25"
+        ],
+        [
+          "Digital",
+          "Mobile app",
+          "31"
+        ],
+        [
+          "Digital",
+          "Marketplace",
+          "30"
+        ],
+        [
+          "Service",
+          "Delivery",
+          "26"
+        ],
+        [
+          "Service",
+          "Membership",
+          "27"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-076",
+    "source_id": "ENB-SRC-076",
+    "user_question": "How does the mix of Domestic (%), Export (%), License (%), and Services (%) differ across division?",
+    "table": {
+      "headers": [
+        "Division",
+        "Domestic (%)",
+        "Export (%)",
+        "License (%)",
+        "Services (%)"
+      ],
+      "rows": [
+        [
+          "Division A",
+          "27",
+          "18",
+          "20",
+          "35"
+        ],
+        [
+          "Division B",
+          "21",
+          "26",
+          "19",
+          "34"
+        ],
+        [
+          "Division C",
+          "20",
+          "21",
+          "12",
+          "47"
+        ],
+        [
+          "Division D",
+          "30",
+          "20",
+          "17",
+          "33"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-077",
+    "source_id": "ENB-SRC-077",
+    "user_question": "How do the entries compare on 7-Day Decline? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Company",
+        "7-Day Decline"
+      ],
+      "rows": [
+        [
+          "DEFSEC Technologies",
+          "-27.6%"
+        ],
+        [
+          "Magellan Aerospace",
+          "-15.3%"
+        ],
+        [
+          "Volatus Aerospace",
+          "-12.3%"
+        ],
+        [
+          "MDA Space",
+          "-11.2%"
+        ],
+        [
+          "Draganfly",
+          "-9.2%"
+        ],
+        [
+          "CAE Inc",
+          "-5.8%"
+        ],
+        [
+          "Bombardier",
+          "-1.7%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-078",
+    "source_id": "ENB-SRC-078",
+    "user_question": "How does the mix of New (%), Renewal (%), Upsell (%), and Other (%) differ across channel?",
+    "table": {
+      "headers": [
+        "Channel",
+        "New (%)",
+        "Renewal (%)",
+        "Upsell (%)",
+        "Other (%)"
+      ],
+      "rows": [
+        [
+          "Retail",
+          "28",
+          "24",
+          "15",
+          "33"
+        ],
+        [
+          "Wholesale",
+          "25",
+          "27",
+          "13",
+          "35"
+        ],
+        [
+          "Online",
+          "27",
+          "23",
+          "19",
+          "31"
+        ],
+        [
+          "Enterprise",
+          "29",
+          "22",
+          "18",
+          "31"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-079",
+    "source_id": "ENB-SRC-079",
+    "user_question": "How do Last Price and Limit Price compare across ticker? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Ticker",
+        "Last Price",
+        "Limit Price"
+      ],
+      "rows": [
+        [
+          "DIVO",
+          "$48.53",
+          "$47.25"
+        ],
+        [
+          "GPIX",
+          "$56.64",
+          "$55.50"
+        ],
+        [
+          "GPIQ",
+          "$57.64",
+          "$56.75"
+        ],
+        [
+          "IDVO",
+          "$43.23",
+          "$42.50"
+        ],
+        [
+          "QQQI",
+          "$55.78",
+          "$54.50"
+        ],
+        [
+          "SCHD",
+          "$34.50",
+          "$33.50"
+        ],
+        [
+          "SPYI",
+          "$54.42",
+          "$53.25"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-080",
+    "source_id": "ENB-SRC-080",
+    "user_question": "How is Current Weight divided among the listed holding entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Holding",
+        "Current Weight"
+      ],
+      "rows": [
+        [
+          "IWFQ",
+          "8.73%"
+        ],
+        [
+          "VWRP",
+          "75.72%"
+        ],
+        [
+          "EQQB",
+          "7.50%"
+        ],
+        [
+          "SPCX",
+          "4.19%"
+        ],
+        [
+          "NOK",
+          "3.85%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-081",
+    "source_id": "ENB-SRC-081",
+    "user_question": "How did Entry change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Date",
+        "Entry"
+      ],
+      "rows": [
+        [
+          "2025-09-08",
+          "$46.64"
+        ],
+        [
+          "2025-09-15",
+          "$47.10"
+        ],
+        [
+          "2025-09-29",
+          "$47.15"
+        ],
+        [
+          "2025-10-13",
+          "$46.39"
+        ],
+        [
+          "2025-10-20",
+          "$45.34"
+        ],
+        [
+          "2025-10-27",
+          "$45.54"
+        ],
+        [
+          "2026-02-09",
+          "$43.25"
+        ],
+        [
+          "2026-02-17",
+          "$43.20"
+        ],
+        [
+          "2026-02-23",
+          "$41.54"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-082",
+    "source_id": "ENB-SRC-082",
+    "user_question": "How does the mix of Solar (%), Wind (%), Hydro (%), and Storage (%) differ across region?",
+    "table": {
+      "headers": [
+        "Region",
+        "Solar (%)",
+        "Wind (%)",
+        "Hydro (%)",
+        "Storage (%)"
+      ],
+      "rows": [
+        [
+          "Area A",
+          "18",
+          "28",
+          "19",
+          "35"
+        ],
+        [
+          "Area B",
+          "22",
+          "28",
+          "18",
+          "32"
+        ],
+        [
+          "Area C",
+          "28",
+          "23",
+          "18",
+          "31"
+        ],
+        [
+          "Area D",
+          "20",
+          "21",
+          "20",
+          "39"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-083",
+    "source_id": "ENB-SRC-083",
+    "user_question": "How do the entries compare on % of Range? Which leads, and by how much over second place?",
+    "table": {
+      "headers": [
+        "Ticker",
+        "% of Range"
+      ],
+      "rows": [
+        [
+          "CRWD",
+          "101"
+        ],
+        [
+          "PLTR",
+          "79"
+        ],
+        [
+          "APP",
+          "3"
+        ],
+        [
+          "HIMS",
+          "31"
+        ],
+        [
+          "ELF",
+          "59"
+        ],
+        [
+          "DDOG",
+          "71"
+        ],
+        [
+          "RDDT",
+          "17"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-084",
+    "source_id": "ENB-SRC-084",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Video",
+          "Film",
+          "14"
+        ],
+        [
+          "Video",
+          "Series",
+          "30"
+        ],
+        [
+          "Video",
+          "Short form",
+          "36"
+        ],
+        [
+          "Audio",
+          "Music",
+          "19"
+        ],
+        [
+          "Audio",
+          "Podcast",
+          "35"
+        ],
+        [
+          "Audio",
+          "Audiobooks",
+          "31"
+        ],
+        [
+          "Licensing",
+          "Games",
+          "41"
+        ],
+        [
+          "Licensing",
+          "Brands",
+          "26"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-085",
+    "source_id": "ENB-SRC-085",
+    "user_question": "How do the entries compare on Hist. Predictions? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Analyst",
+        "Hist. Predictions"
+      ],
+      "rows": [
+        [
+          "Srinivas Reddy Pajjuri",
+          "7"
+        ],
+        [
+          "Aaron Rakers",
+          "3"
+        ],
+        [
+          "Harsh Kumar",
+          "1"
+        ],
+        [
+          "John Vinh",
+          "11"
+        ],
+        [
+          "C.J. Muse",
+          "11"
+        ],
+        [
+          "Simon Leopold",
+          "1"
+        ],
+        [
+          "Kevin Cassidy",
+          "10"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-086",
+    "source_id": "ENB-SRC-086",
+    "user_question": "How do the entries compare on Weight? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Ticker",
+        "Weight"
+      ],
+      "rows": [
+        [
+          "VNQ",
+          "22.4%"
+        ],
+        [
+          "JPM",
+          "17.9%"
+        ],
+        [
+          "XLP",
+          "17.9%"
+        ],
+        [
+          "SCHD",
+          "15.0%"
+        ],
+        [
+          "VLO",
+          "12.7%"
+        ],
+        [
+          "HUM",
+          "12.0%"
+        ],
+        [
+          "Cash",
+          "2.1%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-087",
+    "source_id": "ENB-SRC-087",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Compute",
+          "Virtual machines",
+          "20"
+        ],
+        [
+          "Compute",
+          "GPU instances",
+          "31"
+        ],
+        [
+          "Compute",
+          "Containers",
+          "32"
+        ],
+        [
+          "Storage",
+          "Object storage",
+          "33"
+        ],
+        [
+          "Storage",
+          "Block storage",
+          "15"
+        ],
+        [
+          "Storage",
+          "Archive",
+          "41"
+        ],
+        [
+          "Networking",
+          "CDN",
+          "38"
+        ],
+        [
+          "Networking",
+          "Load balancing",
+          "36"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-088",
+    "source_id": "ENB-SRC-088",
+    "user_question": "How do the entries compare on Implied Upside? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Analyst",
+        "Implied Upside"
+      ],
+      "rows": [
+        [
+          "Simon Coles",
+          "+51%"
+        ],
+        [
+          "Mehdi Hosseini",
+          "+39%"
+        ],
+        [
+          "Bank of America",
+          "+37%"
+        ],
+        [
+          "Mark Li",
+          "+29%"
+        ],
+        [
+          "Charles Shi",
+          "+23%"
+        ],
+        [
+          "Gil Luria",
+          "+16%"
+        ],
+        [
+          "Krish Sankar",
+          "+2%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-089",
+    "source_id": "ENB-SRC-089",
+    "user_question": "How is Allocation divided among the listed fund entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Fund",
+        "Allocation"
+      ],
+      "rows": [
+        [
+          "VTI",
+          "64%"
+        ],
+        [
+          "VXUS",
+          "16%"
+        ],
+        [
+          "AVUV",
+          "12%"
+        ],
+        [
+          "AVDV",
+          "8%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-090",
+    "source_id": "ENB-SRC-090",
+    "user_question": "How do 3-Month Return and 1-Month Return compare across stock? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Stock",
+        "3-Month Return",
+        "1-Month Return"
+      ],
+      "rows": [
+        [
+          "VIAV",
+          "-20.2%",
+          "-1.1%"
+        ],
+        [
+          "STX",
+          "+9.0%",
+          "-3.1%"
+        ],
+        [
+          "VRT",
+          "-20.0%",
+          "-7.9%"
+        ],
+        [
+          "SANM",
+          "-9.3%",
+          "+2.4%"
+        ],
+        [
+          "SITM",
+          "-18.3%",
+          "+10.0%"
+        ],
+        [
+          "UNFI",
+          "-5.4%",
+          "-1.0%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-091",
+    "source_id": "ENB-SRC-091",
+    "user_question": "For each Stock, what are the listed Status, and Position?",
+    "table": {
+      "headers": [
+        "Stock",
+        "Status",
+        "Position"
+      ],
+      "rows": [
+        [
+          "AMD",
+          "✅ Hold",
+          "Profitable, +0.96% from cost"
+        ],
+        [
+          "NOK",
+          "✅ Sold",
+          "Exited near breakeven on today's spike"
+        ],
+        [
+          "RUN",
+          "🔄 Still open",
+          "-$75.46 (-25.42%)"
+        ],
+        [
+          "UPC",
+          "🔄 Still open",
+          "-$26.36 (-27.09%)"
+        ],
+        [
+          "ISPC",
+          "🔄 Still open",
+          "-$139.67 (-48.32%)"
+        ],
+        [
+          "RCT",
+          "🔄 Still open",
+          "-$10.51 (-31.90%)"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-092",
+    "source_id": "ENB-SRC-092",
+    "user_question": "How does the mix of Consumer (%), Enterprise (%), Public (%), and Other (%) differ across product family?",
+    "table": {
+      "headers": [
+        "Product family",
+        "Consumer (%)",
+        "Enterprise (%)",
+        "Public (%)",
+        "Other (%)"
+      ],
+      "rows": [
+        [
+          "Family A",
+          "23",
+          "20",
+          "13",
+          "44"
+        ],
+        [
+          "Family B",
+          "28",
+          "21",
+          "15",
+          "36"
+        ],
+        [
+          "Family C",
+          "24",
+          "24",
+          "19",
+          "33"
+        ],
+        [
+          "Family D",
+          "21",
+          "26",
+          "19",
+          "34"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-093",
+    "source_id": "ENB-SRC-093",
+    "user_question": "How do Yesterday (Aug 17) and Today (Aug 18) compare across sector? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Sector",
+        "Yesterday (Aug 17)",
+        "Today (Aug 18)"
+      ],
+      "rows": [
+        [
+          "XLK (Tech)",
+          "+0.16%",
+          "-2.63%"
+        ],
+        [
+          "QQQ (Nasdaq)",
+          "-0.16%",
+          "-1.58%"
+        ],
+        [
+          "XLP (Staples)",
+          "-1.64%",
+          "+1.51%"
+        ],
+        [
+          "XLV (Healthcare)",
+          "-0.19%",
+          "+1.68%"
+        ],
+        [
+          "XLE (Energy)",
+          "+1.08%",
+          "+0.96%"
+        ],
+        [
+          "XLF (Financials)",
+          "-1.00%",
+          "+0.43%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-094",
+    "source_id": "ENB-SRC-094",
+    "user_question": "How is Weight divided among the listed factor entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Factor",
+        "Weight"
+      ],
+      "rows": [
+        [
+          "Macro / Fed repricing",
+          "30%"
+        ],
+        [
+          "Trend (D1/H4)",
+          "25%"
+        ],
+        [
+          "Structure at spot",
+          "20%"
+        ],
+        [
+          "Momentum (M5–H1)",
+          "15%"
+        ],
+        [
+          "Position vs 200-day MA",
+          "10%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-095",
+    "source_id": "ENB-SRC-095",
+    "user_question": "How do the entries compare on 50D Avg Vol (M)? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "Ticker",
+        "50D Avg Vol (M)"
+      ],
+      "rows": [
+        [
+          "DUK",
+          "4.12"
+        ],
+        [
+          "PEG",
+          "2.99"
+        ],
+        [
+          "AMRZ",
+          "3.24"
+        ],
+        [
+          "AKR",
+          "1.65"
+        ],
+        [
+          "BRBR",
+          "5.59"
+        ],
+        [
+          "ILLR",
+          "7.38"
+        ],
+        [
+          "BJDX",
+          "7.52"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-096",
+    "source_id": "ENB-SRC-096",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Design",
+          "CAD",
+          "18"
+        ],
+        [
+          "Design",
+          "Simulation",
+          "23"
+        ],
+        [
+          "Design",
+          "PLM",
+          "22"
+        ],
+        [
+          "Operations",
+          "MES",
+          "38"
+        ],
+        [
+          "Operations",
+          "Scheduling",
+          "34"
+        ],
+        [
+          "Operations",
+          "Quality",
+          "15"
+        ],
+        [
+          "Support",
+          "Training",
+          "39"
+        ],
+        [
+          "Support",
+          "Integration",
+          "12"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-097",
+    "source_id": "ENB-SRC-097",
+    "user_question": "How did Revenue ($M) change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Quarter End",
+        "Revenue ($M)"
+      ],
+      "rows": [
+        [
+          "2024-09-30",
+          "2.83"
+        ],
+        [
+          "2024-12-31",
+          "1.85"
+        ],
+        [
+          "2025-03-31",
+          "3.60"
+        ],
+        [
+          "2025-06-30",
+          "11.03"
+        ],
+        [
+          "2025-09-30",
+          "6.09"
+        ],
+        [
+          "2025-12-31",
+          "4.48"
+        ],
+        [
+          "2026-03-31",
+          "5.35"
+        ],
+        [
+          "2026-06-30",
+          "8.07"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-098",
+    "source_id": "ENB-SRC-098",
+    "user_question": "How did Revenue (USD) change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Report End Date",
+        "Revenue (USD)"
+      ],
+      "rows": [
+        [
+          "2024-09-28",
+          "878,000,000"
+        ],
+        [
+          "2024-12-28",
+          "1,068,000,000"
+        ],
+        [
+          "2025-03-29",
+          "827,000,000"
+        ],
+        [
+          "2025-06-28",
+          "797,000,000"
+        ],
+        [
+          "2025-09-27",
+          "856,000,000"
+        ],
+        [
+          "2025-12-27",
+          "1,025,000,000"
+        ],
+        [
+          "2026-03-28",
+          "796,000,000"
+        ],
+        [
+          "2026-06-27",
+          "769,000,000"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-099",
+    "source_id": "ENB-SRC-099",
+    "user_question": "How is Weight divided among the listed holding entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Holding",
+        "Weight"
+      ],
+      "rows": [
+        [
+          "SCHG",
+          "46.0%"
+        ],
+        [
+          "SCHB",
+          "24.1%"
+        ],
+        [
+          "LMT",
+          "15.3%"
+        ],
+        [
+          "CELH",
+          "8.5%"
+        ],
+        [
+          "IBIT",
+          "6.1%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-100",
+    "source_id": "ENB-SRC-100",
+    "user_question": "How did Net Income (USD B) change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Period Ended",
+        "Net Income (USD B)"
+      ],
+      "rows": [
+        [
+          "Jan 2024",
+          "12.29"
+        ],
+        [
+          "Apr 2024",
+          "14.88"
+        ],
+        [
+          "Jul 2024",
+          "16.60"
+        ],
+        [
+          "Oct 2024",
+          "19.31"
+        ],
+        [
+          "Jan 2025",
+          "22.09"
+        ],
+        [
+          "Apr 2025",
+          "18.78"
+        ],
+        [
+          "Jul 2025",
+          "26.42"
+        ],
+        [
+          "Oct 2025",
+          "31.91"
+        ],
+        [
+          "Apr 2026",
+          "58.32"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-101",
+    "source_id": "ENB-SRC-101",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Transport",
+          "Road",
+          "15"
+        ],
+        [
+          "Transport",
+          "Rail",
+          "17"
+        ],
+        [
+          "Transport",
+          "Air",
+          "22"
+        ],
+        [
+          "Warehousing",
+          "Cold chain",
+          "26"
+        ],
+        [
+          "Warehousing",
+          "Fulfillment",
+          "23"
+        ],
+        [
+          "Warehousing",
+          "Bulk",
+          "11"
+        ],
+        [
+          "Services",
+          "Customs",
+          "37"
+        ],
+        [
+          "Services",
+          "Last mile",
+          "27"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-102",
+    "source_id": "ENB-SRC-102",
+    "user_question": "How does the mix of Core (%), Growth (%), Legacy (%), and Other (%) differ across quarter?",
+    "table": {
+      "headers": [
+        "Quarter",
+        "Core (%)",
+        "Growth (%)",
+        "Legacy (%)",
+        "Other (%)"
+      ],
+      "rows": [
+        [
+          "Q1",
+          "28",
+          "21",
+          "16",
+          "35"
+        ],
+        [
+          "Q2",
+          "24",
+          "25",
+          "16",
+          "35"
+        ],
+        [
+          "Q3",
+          "28",
+          "25",
+          "14",
+          "33"
+        ],
+        [
+          "Q4",
+          "32",
+          "18",
+          "12",
+          "38"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-103",
+    "source_id": "ENB-SRC-103",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Compute",
+          "Colocation",
+          "41"
+        ],
+        [
+          "Compute",
+          "Managed cloud",
+          "19"
+        ],
+        [
+          "Compute",
+          "GPU hosting",
+          "8"
+        ],
+        [
+          "Connectivity",
+          "Fiber",
+          "15"
+        ],
+        [
+          "Connectivity",
+          "Cross connect",
+          "40"
+        ],
+        [
+          "Connectivity",
+          "Edge",
+          "30"
+        ],
+        [
+          "Services",
+          "Migration",
+          "11"
+        ],
+        [
+          "Services",
+          "Security",
+          "22"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-104",
+    "source_id": "ENB-SRC-104",
+    "user_question": "For each ETF, what are the listed Name, Expense Ratio, AUM, Key Focus, and Best For?",
+    "table": {
+      "headers": [
+        "ETF",
+        "Name",
+        "Expense Ratio",
+        "AUM",
+        "Key Focus",
+        "Best For"
+      ],
+      "rows": [
+        [
+          "SKYY",
+          "First Trust Cloud Computing",
+          "0.60%",
+          "$3.1B",
+          "Blended: hyperscalers + pure-play cloud",
+          "Broadest cloud exposure, deepest liquidity"
+        ],
+        [
+          "CHAT",
+          "Roundhill Generative AI & Tech",
+          "0.75%",
+          "—",
+          "Requires 50% revenue from Gen-AI",
+          "Purest Gen-AI focus, top performer YTD"
+        ],
+        [
+          "BAI",
+          "iShares AI Innovation Active",
+          "0.65%",
+          "$15.4B",
+          "Actively managed, concentrated (49 holdings)",
+          "Investors who want active management"
+        ],
+        [
+          "AIQ",
+          "Global X AI & Technology",
+          "0.68%",
+          "$10.9B",
+          "Broad AI ecosystem (80+ names)",
+          "\"One-and-done\" AI allocation"
+        ],
+        [
+          "ARTY",
+          "iShares Future AI & Tech",
+          "0.47%",
+          "$3.35B",
+          "Equal-weighted, ~65 names",
+          "Low cost + diversification beyond mega-caps"
+        ],
+        [
+          "BOTZ",
+          "Global X Robotics & AI",
+          "0.68%",
+          "$3.73B",
+          "Industrial robotics + automation",
+          "Physical AI / automation exposure"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-105",
+    "source_id": "ENB-SRC-105",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event",
+        "Progress (%)"
+      ],
+      "rows": [
+        [
+          "2025-02-12",
+          "Project approved",
+          "8"
+        ],
+        [
+          "2025-03-12",
+          "Design completed",
+          "23"
+        ],
+        [
+          "2025-04-12",
+          "Equipment ordered",
+          "41"
+        ],
+        [
+          "2025-05-12",
+          "Site installation",
+          "63"
+        ],
+        [
+          "2025-06-12",
+          "Pilot launch",
+          "82"
+        ],
+        [
+          "2025-07-12",
+          "Final review",
+          "100"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-106",
+    "source_id": "ENB-SRC-106",
+    "user_question": "How is % of First Tranche divided among the listed sector entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Sector",
+        "% of First Tranche"
+      ],
+      "rows": [
+        [
+          "Technology",
+          "25%"
+        ],
+        [
+          "Financial/Fintech",
+          "26%"
+        ],
+        [
+          "Consumer",
+          "26%"
+        ],
+        [
+          "Materials (Gold)",
+          "11%"
+        ],
+        [
+          "Healthcare",
+          "12%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-107",
+    "source_id": "ENB-SRC-107",
+    "user_question": "How is Weight distributed across type and holding? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Type",
+        "Holding",
+        "Weight"
+      ],
+      "rows": [
+        [
+          "ETF",
+          "LDGG",
+          "20%"
+        ],
+        [
+          "ETF",
+          "VHYL",
+          "20%"
+        ],
+        [
+          "Stock",
+          "BATS",
+          "15%"
+        ],
+        [
+          "Stock",
+          "NG",
+          "15%"
+        ],
+        [
+          "Stock",
+          "AV",
+          "10%"
+        ],
+        [
+          "Stock",
+          "GSK",
+          "10%"
+        ],
+        [
+          "Stock",
+          "LGEN",
+          "10%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-108",
+    "source_id": "ENB-SRC-108",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Life",
+          "Term",
+          "9"
+        ],
+        [
+          "Life",
+          "Whole life",
+          "11"
+        ],
+        [
+          "Life",
+          "Annuities",
+          "33"
+        ],
+        [
+          "Property",
+          "Home",
+          "35"
+        ],
+        [
+          "Property",
+          "Commercial",
+          "33"
+        ],
+        [
+          "Property",
+          "Auto",
+          "28"
+        ],
+        [
+          "Services",
+          "Claims",
+          "11"
+        ],
+        [
+          "Services",
+          "Brokerage",
+          "39"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-109",
+    "source_id": "ENB-SRC-109",
+    "user_question": "How do Original Price and Sale Price compare across product? Where is the gap largest?",
+    "table": {
+      "headers": [
+        "Product",
+        "Original Price",
+        "Sale Price"
+      ],
+      "rows": [
+        [
+          "Carlinkit 5.0 (2air)",
+          "$129.00",
+          "$66.00"
+        ],
+        [
+          "Carlinkit Mini Ultra",
+          "$99.00",
+          "$55.00"
+        ],
+        [
+          "Autokit CPC200-CCPA",
+          "$65.00",
+          "$65.00"
+        ],
+        [
+          "Carlinkit Tbox Plus",
+          "$459.99",
+          "$169.00"
+        ],
+        [
+          "Carlinkit T2C (Tesla)",
+          "$149.99",
+          "$69.99"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-110",
+    "source_id": "ENB-SRC-110",
+    "user_question": "How does the mix of Hardware (%), Software (%), Services (%), and Other (%) differ across business unit?",
+    "table": {
+      "headers": [
+        "Business unit",
+        "Hardware (%)",
+        "Software (%)",
+        "Services (%)",
+        "Other (%)"
+      ],
+      "rows": [
+        [
+          "Unit A",
+          "30",
+          "26",
+          "13",
+          "31"
+        ],
+        [
+          "Unit B",
+          "18",
+          "27",
+          "16",
+          "39"
+        ],
+        [
+          "Unit C",
+          "27",
+          "23",
+          "20",
+          "30"
+        ],
+        [
+          "Unit D",
+          "23",
+          "22",
+          "18",
+          "37"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-111",
+    "source_id": "ENB-SRC-111",
+    "user_question": "How is Revenue (USD m) distributed across business line and product? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Business line",
+        "Product",
+        "Revenue (USD m)"
+      ],
+      "rows": [
+        [
+          "Cells",
+          "LFP",
+          "29"
+        ],
+        [
+          "Cells",
+          "NMC",
+          "14"
+        ],
+        [
+          "Cells",
+          "Sodium ion",
+          "40"
+        ],
+        [
+          "Packs",
+          "Passenger",
+          "15"
+        ],
+        [
+          "Packs",
+          "Commercial",
+          "31"
+        ],
+        [
+          "Packs",
+          "Stationary",
+          "13"
+        ],
+        [
+          "Services",
+          "Testing",
+          "24"
+        ],
+        [
+          "Services",
+          "Recycling",
+          "16"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-112",
+    "source_id": "ENB-SRC-112",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Sep 17, 2025",
+          "IPO at $23.50"
+        ],
+        [
+          "Nov 13, 2025",
+          "Q3 2025 earnings miss, no Q4 guidance"
+        ],
+        [
+          "May 13, 2026",
+          "Recovery rally into Q1 2026 beat"
+        ],
+        [
+          "Aug 2026",
+          "Recent pre-earnings selloff"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-113",
+    "source_id": "ENB-SRC-113",
+    "user_question": "For each Date, what are the listed Trigger, Spike, and Next Move?",
+    "table": {
+      "headers": [
+        "Date",
+        "Trigger",
+        "Spike",
+        "Next Move"
+      ],
+      "rows": [
+        [
+          "Sep 22, 2025",
+          "Meme/retail frenzy, no catalyst",
+          "+500%+ (largest gap: +280.8%)",
+          "Crashed — analysts called it \"massive crash risk,\" RSI extreme overbought"
+        ],
+        [
+          "Sep 23, 2025",
+          "$4M direct offering announced (dilutive)",
+          "—",
+          "–40.04% same day"
+        ],
+        [
+          "Feb 4, 2026",
+          "Unknown catalyst",
+          "+33.3% gap",
+          "+17.4% drift (rare green close)"
+        ],
+        [
+          "Feb 6, 2026",
+          "Unknown catalyst",
+          "+13.3% gap",
+          "–26.3% same-day crash"
+        ],
+        [
+          "Jun 24, 2026",
+          "Post 1:6 reverse split speculation",
+          "+57.6%",
+          "Plunged double digits in after-hours same day"
+        ],
+        [
+          "Aug 12, 2026",
+          "$5.5M Series D + $15M equity line (dilutive)",
+          "+168.6% close, AH –11.8%",
+          "You're here"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-114",
+    "source_id": "ENB-SRC-114",
+    "user_question": "How did Price (USD) change across the listed periods? Where were the main rises and declines?",
+    "table": {
+      "headers": [
+        "Contract Month",
+        "Price (USD)"
+      ],
+      "rows": [
+        [
+          "Oct 2026 (front)",
+          "89.68"
+        ],
+        [
+          "Nov 2026",
+          "87.48"
+        ],
+        [
+          "Dec 2026",
+          "85.28"
+        ],
+        [
+          "Jan 2027",
+          "83.54"
+        ],
+        [
+          "Mar 2027",
+          "80.95"
+        ],
+        [
+          "Jun 2027",
+          "78.48"
+        ],
+        [
+          "Dec 2027",
+          "75.65"
+        ],
+        [
+          "Dec 2028",
+          "72.58"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-115",
+    "source_id": "ENB-SRC-115",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Jul 24, 2026 (close)",
+          "Pre-FDA briefing"
+        ],
+        [
+          "Jul 27, 2026",
+          "FDA releases AdComm briefing documents"
+        ],
+        [
+          "Jul 29, 2026 (close)",
+          "Day of AdComm meeting"
+        ],
+        [
+          "Jul 30, 2026",
+          "AdComm votes 9–3 against effectiveness"
+        ],
+        [
+          "Aug 4, 2026 (low)",
+          "Bottom"
+        ],
+        [
+          "Aug 13, 2026 (close)",
+          "Partial recovery"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-116",
+    "source_id": "ENB-SRC-116",
+    "user_question": "How do the entries compare on Last Price (USD)? Which is highest and which is lowest?",
+    "table": {
+      "headers": [
+        "ETF",
+        "Last Price (USD)"
+      ],
+      "rows": [
+        [
+          "ITA",
+          "251.62"
+        ],
+        [
+          "XAR",
+          "293.34"
+        ],
+        [
+          "PPA",
+          "184.46"
+        ],
+        [
+          "EUAD",
+          "47.75"
+        ],
+        [
+          "DFEN",
+          "86.61"
+        ],
+        [
+          "XLI",
+          "185.88"
+        ],
+        [
+          "VIS",
+          "357.66"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-117",
+    "source_id": "ENB-SRC-117",
+    "user_question": "How is Net Inflow (USD M) distributed across sector and ticker? Which group and item are largest?",
+    "table": {
+      "headers": [
+        "Sector",
+        "Ticker",
+        "Net Inflow (USD M)"
+      ],
+      "rows": [
+        [
+          "Technology",
+          "DDOG",
+          "54.6"
+        ],
+        [
+          "Consumer Disc.",
+          "TSCO",
+          "40.4"
+        ],
+        [
+          "Technology",
+          "CBRS",
+          "37.5"
+        ],
+        [
+          "Industrials",
+          "AXON",
+          "37.1"
+        ],
+        [
+          "Consumer Disc.",
+          "BABA",
+          "33.7"
+        ],
+        [
+          "Financials",
+          "KKR",
+          "23.8"
+        ],
+        [
+          "Financials",
+          "IBKR",
+          "19.0"
+        ],
+        [
+          "Health Care",
+          "INSM",
+          "17.6"
+        ],
+        [
+          "Consumer Disc.",
+          "BKNG",
+          "14.3"
+        ],
+        [
+          "Health Care",
+          "CRNX",
+          "14.2"
+        ],
+        [
+          "Consumer Disc.",
+          "CVNA",
+          "14.0"
+        ],
+        [
+          "Health Care",
+          "TECH",
+          "7.8"
+        ],
+        [
+          "Industrials",
+          "PH",
+          "6.6"
+        ],
+        [
+          "Technology",
+          "MTSI",
+          "3.5"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-118",
+    "source_id": "ENB-SRC-118",
+    "user_question": "What events or planned milestones are listed at each date, and how does the sequence progress?",
+    "table": {
+      "headers": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Aug 2, 2026",
+          "Pre-offering baseline"
+        ],
+        [
+          "Aug 17, 2026",
+          "Initial C$50M deal announced"
+        ],
+        [
+          "Aug 25, 2026",
+          "Deal closed at C$70.4M"
+        ],
+        [
+          "Aug 26, 2026",
+          "Day after close"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-119",
+    "source_id": "ENB-SRC-119",
+    "user_question": "How is Allocation divided among the listed stock entries? Which two shares are largest?",
+    "table": {
+      "headers": [
+        "Stock",
+        "Allocation"
+      ],
+      "rows": [
+        [
+          "META",
+          "28%"
+        ],
+        [
+          "RDDT",
+          "32%"
+        ],
+        [
+          "RBLX",
+          "20%"
+        ],
+        [
+          "DKS",
+          "12%"
+        ],
+        [
+          "Cash reserve",
+          "8%"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ENB-120",
+    "source_id": "ENB-SRC-120",
+    "user_question": "How does the mix of Materials (%), Labor (%), Utilities (%), and Logistics (%) differ across plant?",
+    "table": {
+      "headers": [
+        "Plant",
+        "Materials (%)",
+        "Labor (%)",
+        "Utilities (%)",
+        "Logistics (%)"
+      ],
+      "rows": [
+        [
+          "Plant A",
+          "26",
+          "28",
+          "17",
+          "29"
+        ],
+        [
+          "Plant B",
+          "31",
+          "19",
+          "14",
+          "36"
+        ],
+        [
+          "Plant C",
+          "28",
+          "26",
+          "13",
+          "33"
+        ],
+        [
+          "Plant D",
+          "26",
+          "27",
+          "18",
+          "29"
+        ]
+      ]
+    }
+  }
+]

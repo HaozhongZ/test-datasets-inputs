@@ -1,0 +1,11 @@
+{
+  "suite": "aime-infographic-english",
+  "version": "1.0.0",
+  "case_count": 120,
+  "input_file": "input.json",
+  "schema_version": 1,
+  "purpose": "English blind-test inputs for the AIME launch of the infographic generation capability",
+  "question_language": "English",
+  "table_language": "English",
+  "note": "Some cases use controlled synthetic data to cover specific chart structures. Other tables are test snapshots from model answers, not independently verified disclosures. Expected chart types, scoring, and ID mapping are not included."
+}
