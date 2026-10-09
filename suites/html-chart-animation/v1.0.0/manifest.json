@@ -1,0 +1,13 @@
+{
+  "suite": "html-chart-animation",
+  "version": "1.0.0",
+  "case_count": 90,
+  "input_file": "input.json",
+  "schema_version": 1,
+  "source_file_name": "inputs.json",
+  "id_prefix_counts": {
+    "case": 47,
+    "rem": 43
+  },
+  "note": "The source inputs and IDs are preserved as provided. No expected outputs or scoring are included."
+}

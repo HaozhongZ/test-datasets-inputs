@@ -25,3 +25,19 @@ assert all(set(x)=={'id','title','source_file','input','original_markdown'} for 
 assert all(set(x['input'])=={'annotated_script','references','plain_script'} for x in items)
 assert not re.search(r'/Users/|/home/[^/]+/', (base/'input.json').read_text())
 print(f'PASS: merger-video {n} inputs')
+
+base=root/'suites'/'html-chart-animation'/'v1.0.0'
+manifest=json.loads((base/'manifest.json').read_text())
+items=json.loads((base/'input.json').read_text())
+n=manifest['case_count']
+assert manifest['suite']=='html-chart-animation'
+assert len(items)==n
+ids=[x['id'] for x in items]
+assert len(set(ids))==n
+assert all(re.fullmatch(r'(?:case|rem)-\d{3}', x) for x in ids)
+assert {p:sum(x.startswith(p+'-') for x in ids) for p in ('case','rem')}==manifest['id_prefix_counts']
+assert all(set(x)=={'id','input'} for x in items)
+assert all(set(x['input'])=={'intent','narration','tables'} for x in items)
+assert all(isinstance(x['input']['intent'],str) and isinstance(x['input']['narration'],str) and isinstance(x['input']['tables'],list) and x['input']['tables'] for x in items)
+assert all(isinstance(t.get('rows'),list) and t['rows'] for x in items for t in x['input']['tables'])
+print(f'PASS: html-chart-animation {n} inputs')
