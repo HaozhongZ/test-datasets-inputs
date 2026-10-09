@@ -1,0 +1,10 @@
+{
+  "suite": "merger-video",
+  "version": "1.0.0",
+  "case_count": 8,
+  "input_file": "input.json",
+  "schema_version": 1,
+  "source_file_name": "并购测试集.json",
+  "sanitized_local_path_occurrences": 32,
+  "note": "Original local source paths were removed from the public copy; original file is unchanged. No expected outcomes or scoring are included."
+}
