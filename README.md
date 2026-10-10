@@ -1,38 +1,13 @@
 # 生成能力测试输入集
 
-这里发布可直接用于批量测试的输入数据。各类测试集分别放在 `suites/` 下。
+按测试对象保存批量输入。选择对应的 `input.json`，逐条提交案例并按 `id` 记录结果。
 
-## 信息图 v1.0.0
+| 测试集 | 测试对象与内容 | 输入 |
+| --- | --- | --- |
+| [信息图](suites/infographic/v1.0.0/input.json) | 信息图生成；120 条中文问句及各不相同的数据表，覆盖时间、比较、构成、排名等数据关系。 | `user_question` + `table` |
+| [AIME 信息图英文表格](suites/aime-infographic-english/v1.0.0/input.json) | AIME 上线的信息图生成；120 条英文问句及英文表格，测试数据呈现与图表选择。部分案例使用模拟数据。 | `user_question` + `table` |
+| [AIME 信息图纯问句](suites/aime-infographic-questions/v1.0.0/input.json) | AIME 信息图生成；100 条英文金融问句，测试从问句获取数据、判断是否适合成图以及生成信息图。 | 仅提交 `user_question` |
+| [并购视频](suites/merger-video/v1.0.0/input.json) | 并购视频生成；8 条分段文案，包含旁白、画面提示与参考资料。 | `input` 中的文案与参考资料 |
+| [HTML 图表动画](suites/html-chart-animation/v1.0.0/input.json) | HTML 图表动画生成；90 条叙述与数据表，测试叙述和图表动画的对应关系。 | `input` 中的 `intent`、`narration`、`tables` |
 
-- 文件：[`suites/infographic/v1.0.0/input.json`](suites/infographic/v1.0.0/input.json)
-- 数量：120 条，每条数据表不同。
-- 格式：JSON 数组；每条包含 `id`、`source_id`、`user_question`、`table.headers` 和 `table.rows`。
-- 用法：逐条将问句与表格提交给被测生成能力，按 `id` 保存产物。
-
-## AIME 上线信息图英文测试集 v1.0.0
-
-- 用途：给 **AIME 上线的信息图生成能力**做英文输入盲测。
-- 文件：[`suites/aime-infographic-english/v1.0.0/input.json`](suites/aime-infographic-english/v1.0.0/input.json)
-- 数量：120 条英文问句及英文表格，随机排列并使用连续盲测 ID；十类测试方向的数量与原信息图 120 条测试集一致。
-- 数据性质：部分案例使用控制性模拟数据，以覆盖特定图表结构；其余为提供的看板压缩包中模型回答提取的英文表格。提取表也只是测试快照，未经独立事实核实。
-- 格式与用法：每条包含 `id`、`source_id`、`user_question`、`table.headers` 和 `table.rows`。逐条提交问句与表格，按 `id` 保存产物。输入中不包含期望图型或评分信息。
-
-## 并购视频 v1.0.0
-
-- 文件：[`suites/merger-video/v1.0.0/input.json`](suites/merger-video/v1.0.0/input.json)
-- 数量：8 条。
-- 格式：JSON 数组；每条包含 `id`、`title`、`source_file`、`input` 和 `original_markdown`。`input` 内有 `annotated_script`、`references` 和 `plain_script`。
-- 用法：按被测能力所需的字段提交案例，并按 `id` 保存产物。公开副本将原文件中 32 处他人电脑的绝对路径替换为“本地路径已移除”，原文件未修改。
-
-## HTML 图表动画 v1.0.0
-
-- 文件：[`suites/html-chart-animation/v1.0.0/input.json`](suites/html-chart-animation/v1.0.0/input.json)
-- 数量：90 条，保留原文件中的 47 个 `case` ID 和 43 个 `rem` ID。
-- 格式：JSON 数组；每条包含 `id` 和 `input`，其中 `input` 包含 `intent`、`narration` 和 `tables`。
-- 用法：将每条的 `input` 提交给被测能力，按原有 `id` 保存生成结果。此版本与原文件内容一致。
-
-此仓库只包含测试输入。信息图的期望图型、insight、评分规则和盲测 ID 映射由维护者独立保存，测试前不提供给被测系统。部分案例使用控制性模拟数据；请不要把测试内容当作最新公司披露或投资事实。
-
-运行 `python3 tools/validate.py` 检查输入结构、ID 和信息图表格唯一性。
-
-目前未给数据内容指定开放许可证；如需再分发或改编，请先联系仓库维护者确认使用范围。
+信息图的期望结果与评分材料不在此输入仓库中。运行 `python3 tools/validate.py` 可检查各测试集的结构和 ID。

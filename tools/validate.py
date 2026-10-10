@@ -30,6 +30,20 @@ assert all(all(c.isascii() for c in json.dumps(x['table'],ensure_ascii=False) if
 assert not any(re.search(r'\b(chart|graph|timeline|donut|pie|treemap|infographic)\b|\b(?:bar|line|column)\s+chart\b',x['user_question'],re.I) for x in items)
 print(f'PASS: AIME English infographic {n} unique blind-test inputs')
 
+base=root/'suites'/'aime-infographic-questions'/'v1.0.0'
+manifest=json.loads((base/'manifest.json').read_text())
+items=json.loads((base/'input.json').read_text())
+n=manifest['case_count']
+assert manifest['suite']=='aime-infographic-questions'
+assert len(items)==n
+assert [x['id'] for x in items]==[f'TQ-{i:03d}' for i in range(1,n+1)]
+assert all(set(x)=={'id','user_question'} for x in items)
+assert len({x['user_question'].casefold() for x in items})==n
+assert all(isinstance(x['user_question'],str) and x['user_question'].strip() for x in items)
+assert all(all(c.isascii() for c in x['user_question'] if c.isalpha()) for x in items)
+assert not any(re.search(r'\b(chart|graph|timeline|donut|pie|treemap|infographic)\b|\b(?:bar|line|column)\s+chart\b',x['user_question'],re.I) for x in items)
+print(f'PASS: AIME infographic questions {n} question-only inputs')
+
 base=root/'suites'/'merger-video'/'v1.0.0'
 manifest=json.loads((base/'manifest.json').read_text())
 items=json.loads((base/'input.json').read_text())

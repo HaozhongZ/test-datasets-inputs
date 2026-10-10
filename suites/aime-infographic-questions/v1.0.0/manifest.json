@@ -1,0 +1,9 @@
+{
+  "suite": "aime-infographic-questions",
+  "version": "1.0.0",
+  "case_count": 100,
+  "input_file": "input.json",
+  "schema_version": 1,
+  "purpose": "Question-only inputs for AIME infographic generation and data retrieval",
+  "question_language": "English"
+}

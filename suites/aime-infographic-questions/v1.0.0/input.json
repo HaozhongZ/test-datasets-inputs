@@ -1,0 +1,402 @@
+[
+  {
+    "id": "TQ-001",
+    "user_question": "Compare NVDA's current valuation with its own five-year range and with AMD and AVGO using forward earnings and free-cash-flow measures."
+  },
+  {
+    "id": "TQ-002",
+    "user_question": "Compare AMD’s actual revenue, consensus revenue, revenue surprise, actual EPS, and EPS surprise for the latest eight quarters. Distinguish fiscal quarters from calendar quarters."
+  },
+  {
+    "id": "TQ-003",
+    "user_question": "Show me AAPL's revenue and net income for the past 5 years"
+  },
+  {
+    "id": "TQ-004",
+    "user_question": "How does MSFT's Azure growth compare to Google Cloud and AWS right now?"
+  },
+  {
+    "id": "TQ-005",
+    "user_question": "Which VST bull put spread expiring in about 29 days has the best risk-reward ratio?"
+  },
+  {
+    "id": "TQ-006",
+    "user_question": "Compare Micron’s latest reported revenue with the same quarter one year ago and calculate the year-over-year growth rate."
+  },
+  {
+    "id": "TQ-007",
+    "user_question": "Track ETF flows into XLV, XLP, and XLU over the past week"
+  },
+  {
+    "id": "TQ-008",
+    "user_question": "How has Tesla performed in terms of revenue growth in recent quarters?"
+  },
+  {
+    "id": "TQ-009",
+    "user_question": "What are the key support and resistance levels for QQQ?"
+  },
+  {
+    "id": "TQ-010",
+    "user_question": "Perform a historical valuation analysis of Coherent: what percentile is its current P/S ratio relative to the past five years?"
+  },
+  {
+    "id": "TQ-011",
+    "user_question": "How does SPYG compare to IVW or MGK for S&P 500 growth exposure?"
+  },
+  {
+    "id": "TQ-012",
+    "user_question": "Show me TSLA's revenue growth trend over the last 4 quarters vs its peers"
+  },
+  {
+    "id": "TQ-013",
+    "user_question": "Compare Microsoft, Amazon, and Google in terms of cloud growth and AI-related capital spending. Which one is investing most aggressively?"
+  },
+  {
+    "id": "TQ-014",
+    "user_question": "Compare NVDA, AVGO and AMD on revenue growth, gross margin and forward P/E. Which currently has the best growth-to-valuation balance?"
+  },
+  {
+    "id": "TQ-015",
+    "user_question": "Which industrial ETFs with mostly U.S. holdings grew the most over the past year?"
+  },
+  {
+    "id": "TQ-016",
+    "user_question": "What was the growth rate of Marvell's data center business in its latest earnings report? Analyze how much AI contributes to the company's overall growth."
+  },
+  {
+    "id": "TQ-017",
+    "user_question": "What's the EEM holdings breakdown by country and sector right now?"
+  },
+  {
+    "id": "TQ-018",
+    "user_question": "How has the financial sector performed against technology recently, and is there evidence of rotation?"
+  },
+  {
+    "id": "TQ-019",
+    "user_question": "How has NVDA's stock typically reacted after earnings over the past year?"
+  },
+  {
+    "id": "TQ-020",
+    "user_question": "How does AMD's valuation and growth compare to NVIDIA side by side?"
+  },
+  {
+    "id": "TQ-021",
+    "user_question": "How do JEPQ, QYLD, and XYLD compare as covered-call income ETFs?"
+  },
+  {
+    "id": "TQ-022",
+    "user_question": "How have Tesla’s quarterly revenue and margins changed over the last four quarters?"
+  },
+  {
+    "id": "TQ-023",
+    "user_question": "How would $40,000 in SPHY have performed versus SGOV over the past year, including total return?"
+  },
+  {
+    "id": "TQ-024",
+    "user_question": "Compare TSLA's auto gross margin trend vs BYD and other EV competitors"
+  },
+  {
+    "id": "TQ-025",
+    "user_question": "Which stocks have had three consecutive quarters of revenue growth? Rank them by median growth rate."
+  },
+  {
+    "id": "TQ-026",
+    "user_question": "How is GLD performing compared to other mega-cap tech stocks like MSFT and GOOGL this quarter?"
+  },
+  {
+    "id": "TQ-027",
+    "user_question": "Which stocks show a bullish Ichimoku pattern, trade between $10 and $50, and have above-average volume?"
+  },
+  {
+    "id": "TQ-028",
+    "user_question": "Show me TSLA's quarterly free cash flow trend over the last 4 quarters"
+  },
+  {
+    "id": "TQ-029",
+    "user_question": "What were the five most unusual options trades today?"
+  },
+  {
+    "id": "TQ-030",
+    "user_question": "Can you screen NASDAQ stocks under $20 with the best 3-month price momentum and rising volume?"
+  },
+  {
+    "id": "TQ-031",
+    "user_question": "Compare AMD's latest reported quarter with management guidance. Identify the two financial metrics most likely to move the stock at the next earnings release, separate fact from inference, and cite dated sources."
+  },
+  {
+    "id": "TQ-032",
+    "user_question": "Compare Alphabet and Meta using the latest twelve-month revenue growth, operating margin, free-cash-flow margin, net cash, forward P/E, and EV/FCF. Normalize one-time items, identify the stronger business, and show all calculations."
+  },
+  {
+    "id": "TQ-033",
+    "user_question": "Over the last 1,000 trading days, when SPY closed above its opening price, how often did TQQQ do the same?"
+  },
+  {
+    "id": "TQ-034",
+    "user_question": "Which sectors are leading and lagging right now? Explain whether the market is rotating toward growth, value, defensives, or cyclicals."
+  },
+  {
+    "id": "TQ-035",
+    "user_question": "How does AAPL’s current price compare with its historical average?"
+  },
+  {
+    "id": "TQ-036",
+    "user_question": "How did NVDA’s share price move around its last four earnings reports?"
+  },
+  {
+    "id": "TQ-037",
+    "user_question": "Can you build a diversified AI infrastructure portfolio of 8–15 stocks across sectors and regions, with low volatility and correlation, and backtest it over the past year?"
+  },
+  {
+    "id": "TQ-038",
+    "user_question": "Compare SMH, SOXX, and XLK for a U.S. investor who already owns a broad S&P 500 ETF. Use current holdings and concentration data, explain the material differences, and state the data date."
+  },
+  {
+    "id": "TQ-039",
+    "user_question": "Calculate the one-year total return, Sharpe ratio, and maximum drawdown of the QQQ ETF."
+  },
+  {
+    "id": "TQ-040",
+    "user_question": "What's NVDA's implied volatility doing into earnings now?"
+  },
+  {
+    "id": "TQ-041",
+    "user_question": "Has NUE beaten analysts’ earnings estimates over its last four quarters?"
+  },
+  {
+    "id": "TQ-042",
+    "user_question": "Compare AMAT's valuation and growth to other semiconductor equipment stocks like ASML and LRCX"
+  },
+  {
+    "id": "TQ-043",
+    "user_question": "How do RSPT, XSW, IGV, VGT, and FTEC differ in their largest holdings and exposure to the Magnificent Seven?"
+  },
+  {
+    "id": "TQ-044",
+    "user_question": "What are the key support and resistance levels to watch on TSLA right now?"
+  },
+  {
+    "id": "TQ-045",
+    "user_question": "Compare NVIDIA and AMD's forward 12-month consensus P/E ratios and expected revenue growth, and determine which company has the more attractive PEG valuation."
+  },
+  {
+    "id": "TQ-046",
+    "user_question": "Compare TSLA's valuation and margins vs. GM, RIVN, and LCID side by side"
+  },
+  {
+    "id": "TQ-047",
+    "user_question": "How does AAPL's valuation compare to MSFT and GOOGL right now?"
+  },
+  {
+    "id": "TQ-048",
+    "user_question": "What are the top 10 performing non-leveraged ETFs over the last 30 days"
+  },
+  {
+    "id": "TQ-049",
+    "user_question": "How does NVDA's moving average structure compare to other semiconductor stocks like AVGO or TSM?"
+  },
+  {
+    "id": "TQ-050",
+    "user_question": "How do TSLA's margins and valuation compare to BYD and other EV peers right now?"
+  },
+  {
+    "id": "TQ-051",
+    "user_question": "From a total return standpoint compare HYZD and SPHY over long durations"
+  },
+  {
+    "id": "TQ-052",
+    "user_question": "Compare QQQ forward P/E vs historical percentile 🔍"
+  },
+  {
+    "id": "TQ-053",
+    "user_question": "How are the markets doing today? Explain the move using indices, sectors, rates, commodities, volatility, and major news."
+  },
+  {
+    "id": "TQ-054",
+    "user_question": "Which monthly dividend ETFs currently have the highest yields?"
+  },
+  {
+    "id": "TQ-055",
+    "user_question": "What sector is rising the most today?"
+  },
+  {
+    "id": "TQ-056",
+    "user_question": "How does AAPL compare to MSFT and GOOGL on valuation and growth right now"
+  },
+  {
+    "id": "TQ-057",
+    "user_question": "Analyze NVDA’s latest quarterly earnings performance, segment revenue growth, and current EV/Sales relative to historical medians."
+  },
+  {
+    "id": "TQ-058",
+    "user_question": "Which ETFs moved more than 1% yesterday?"
+  },
+  {
+    "id": "TQ-059",
+    "user_question": "Can you screen for stocks that are between $5-$50, have an average volume of over 1M, have a relative volume of over 2, a float if under 100M shares, and a beta of over 1.5?"
+  },
+  {
+    "id": "TQ-060",
+    "user_question": "Compare VOO vs VTI vs QQQ long-term performance side by side"
+  },
+  {
+    "id": "TQ-061",
+    "user_question": "what stocks have low p/e with positive earnings and cash flow?"
+  },
+  {
+    "id": "TQ-062",
+    "user_question": "What would the Straits Times Index have looked like if all its stocks were equally weighted?"
+  },
+  {
+    "id": "TQ-063",
+    "user_question": "What's the current BTC dominance trend and what does it signal for altcoin allocation?"
+  },
+  {
+    "id": "TQ-064",
+    "user_question": "Show me TSLA's revenue breakdown by segment — automotive vs energy vs services"
+  },
+  {
+    "id": "TQ-065",
+    "user_question": "Which ETF had the largest net inflows last week?"
+  },
+  {
+    "id": "TQ-066",
+    "user_question": "Show me AAPL's revenue breakdown by business segment"
+  },
+  {
+    "id": "TQ-067",
+    "user_question": "What does TSLA's options flow and short interest look like right now?"
+  },
+  {
+    "id": "TQ-068",
+    "user_question": "Which stocks make up the VanEck Semiconductor ETF?"
+  },
+  {
+    "id": "TQ-069",
+    "user_question": "Which stocks hit new 52-week highs today even though their sector ETFs did not?"
+  },
+  {
+    "id": "TQ-070",
+    "user_question": "Which gold ETF has performed best while charging the lowest fees?"
+  },
+  {
+    "id": "TQ-071",
+    "user_question": "Which gold stocks priced below $5 pay dividends?"
+  },
+  {
+    "id": "TQ-072",
+    "user_question": "Which Healthcare and Financials stocks have the strongest momentum right now?"
+  },
+  {
+    "id": "TQ-073",
+    "user_question": "Summarize the Wall Street view on $AAPL : consensus rating, average and high/low price targets, the buy / hold / sell split, recent upgrades and downgrades, and the implied upside or downside versus the current price."
+  },
+  {
+    "id": "TQ-074",
+    "user_question": "Calculate the return correlations among SPY, QQQ, IWM, and DIA over the past five years."
+  },
+  {
+    "id": "TQ-075",
+    "user_question": "How does the current Bitcoin rally compare with the 2022 false breakout around the 50-week EMA?"
+  },
+  {
+    "id": "TQ-076",
+    "user_question": "Which 10 stocks have a 14-period RSI above 60 on both weekly and monthly timeframes?"
+  },
+  {
+    "id": "TQ-077",
+    "user_question": "What did Walmart actually report — did comp sales beat or miss?"
+  },
+  {
+    "id": "TQ-078",
+    "user_question": "Where are AAPL’s key support and resistance levels now?"
+  },
+  {
+    "id": "TQ-079",
+    "user_question": "Analyze the latest earnings and guidance from Microsoft, Amazon, Alphabet, and Meta. Compare cloud growth, AI capital expenditure, operating leverage, and implied shareholder returns."
+  },
+  {
+    "id": "TQ-080",
+    "user_question": "Is there an ETF like QQQ priced near or below $100 per share?"
+  },
+  {
+    "id": "TQ-081",
+    "user_question": "Compare XOVR against other innovation-themed ETFs like ARKK or QQQ"
+  },
+  {
+    "id": "TQ-082",
+    "user_question": "What are KOID's top 10 holdings and how concentrated is the ETF?"
+  },
+  {
+    "id": "TQ-083",
+    "user_question": "How much do the holdings of RING, GDX, and SIL overlap?"
+  },
+  {
+    "id": "TQ-084",
+    "user_question": "What's the TSLA options market saying about IV and put/call ratios ahead of Q3?"
+  },
+  {
+    "id": "TQ-085",
+    "user_question": "How does South Korea’s household debt compare with that of the United States?"
+  },
+  {
+    "id": "TQ-086",
+    "user_question": "How has the price of GLD compared with the price of gold?"
+  },
+  {
+    "id": "TQ-087",
+    "user_question": "Is Bitcoin trending up or down"
+  },
+  {
+    "id": "TQ-088",
+    "user_question": "Compare Willamette Valley Vineyards' last eight reported quarters for revenue growth, gross margin, operating margin, cash flow, debt, and inventory; flag any deteriorating trend."
+  },
+  {
+    "id": "TQ-089",
+    "user_question": "Which S&P 500 stocks have risen for at least three consecutive days as of the latest close?"
+  },
+  {
+    "id": "TQ-090",
+    "user_question": "How does TSLA's R&D spending compare to NVDA, GOOGL, and other AI spenders?"
+  },
+  {
+    "id": "TQ-091",
+    "user_question": "Which companies have consistent earnings growth and high profit margins?"
+  },
+  {
+    "id": "TQ-092",
+    "user_question": "What's the SPY order flow and put/call ratio telling me right now?"
+  },
+  {
+    "id": "TQ-093",
+    "user_question": "Show me NIO's historical earnings gap sizes over the last 8 quarters"
+  },
+  {
+    "id": "TQ-094",
+    "user_question": "Compare AAPL's current valuation and margin trajectory to MSFT and GOOGL"
+  },
+  {
+    "id": "TQ-095",
+    "user_question": "Compare TSM and Intel on revenue growth, gross margin, and stock performance over the past year."
+  },
+  {
+    "id": "TQ-096",
+    "user_question": "How did SOXQ perform day by day in the week after NVIDIA’s February earnings?"
+  },
+  {
+    "id": "TQ-097",
+    "user_question": "How has Tesla’s net profit changed over the past three years?"
+  },
+  {
+    "id": "TQ-098",
+    "user_question": "Which stocks have a three-month RSI below 25 and a market cap above $25 billion?"
+  },
+  {
+    "id": "TQ-099",
+    "user_question": "Compare TSLA's and BYD's cash flow trends over the last 4 quarters"
+  },
+  {
+    "id": "TQ-100",
+    "user_question": "Which stocks show a bullish MACD cross, price near support level, and RSI(14) below 30?"
+  }
+]
