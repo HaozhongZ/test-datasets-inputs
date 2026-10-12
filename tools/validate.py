@@ -97,7 +97,9 @@ assert len(items)==n==18
 assert [x['id'] for x in items]==[f'kline-narrative-{i:03d}' for i in range(1,n+1)]
 assert manifest['platform_counts']=={'bilibili':9,'douyin':9}
 assert all(set(x)=={'id','input'} for x in items)
-assert all({'intent','narration','tables','video_reference','animation_hints'}==set(x['input']) for x in items)
+assert all({'intent','narration','reference_narration','reference_narration_note','tables','video_reference','animation_hints'}==set(x['input']) for x in items)
+assert all(isinstance(x['input']['reference_narration'],str) and len(x['input']['reference_narration'])>=40 for x in items)
+assert all('并非原音逐字稿' in x['input']['reference_narration_note'] for x in items)
 assert all(x['input']['video_reference']['platform'] in ('bilibili','douyin') for x in items)
 assert all(x['input']['video_reference']['source_segment']['duration_seconds'] in range(30,61) for x in items)
 assert all(x['input']['video_reference']['url'].startswith('https://') for x in items)

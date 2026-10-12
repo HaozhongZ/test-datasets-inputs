@@ -10,6 +10,6 @@
 | [并购视频](suites/merger-video/v1.0.0/input.json) | 并购视频生成；8 条分段文案，包含旁白、画面提示与参考资料。 | `input` 中的文案与参考资料 |
 | [HTML 图表动画](suites/html-chart-animation/v1.0.0/input.json) | HTML 图表动画生成；90 条叙述与数据表，测试叙述和图表动画的对应关系。 | `input` 中的 `intent`、`narration`、`tables` |
 | [K线解读视频动画](suites/kline-video-animation/v1.0.0/input.json) | 短K线解读动画数据；100 条含合成 OHLCV 数据、动画提示和视频范例的输入。 | `input` 中的 `intent`、`narration`、`tables`；`video_reference` 只作视觉范例 |
-| [短时 K线解读视频](suites/kline-video-narrative/v1.0.0/input.json) | 短K线解读动画数据；18 条约 45 秒的B站、抖音视频参考输入，覆盖形态、逐K复盘、价格行为与结构确认。行情数据为合成样例。 | `input` 中的 `intent`、`narration`、`tables`、`video_reference` 与 `animation_hints` |
+| [短时 K线解读视频](suites/kline-video-narrative/v1.0.0/input.json) | 短K线解读动画数据；18 条约 45 秒的B站、抖音视频参考输入，含旁白参考转述，覆盖形态、逐K复盘、价格行为与结构确认。行情数据为合成样例。 | `input` 中的 `intent`、`narration`、`reference_narration`、`tables`、`video_reference` 与 `animation_hints` |
 
 信息图的期望结果与评分材料不在此输入仓库中。运行 `python3 tools/validate.py` 可检查各测试集的结构和 ID。
