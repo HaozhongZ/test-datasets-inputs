@@ -1,0 +1,5222 @@
+[
+  {
+    "id": "kline-narrative-001",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“K线形态——旗形整理”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦K线形态——旗形整理所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：K线形态——旗形整理",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-01",
+              "open": 118.69,
+              "high": 120.18,
+              "low": 117.69,
+              "close": 119.32,
+              "volume": 1615
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-01",
+              "open": 119.32,
+              "high": 120.42,
+              "low": 118.41,
+              "close": 119.8,
+              "volume": 1689
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-01",
+              "open": 119.8,
+              "high": 121.5,
+              "low": 118.84,
+              "close": 120.77,
+              "volume": 331
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-01",
+              "open": 120.77,
+              "high": 121.7,
+              "low": 120.28,
+              "close": 120.77,
+              "volume": 308
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-01",
+              "open": 120.77,
+              "high": 121.28,
+              "low": 120.43,
+              "close": 121.12,
+              "volume": 672
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-01",
+              "open": 121.12,
+              "high": 122.05,
+              "low": 119.92,
+              "close": 120.42,
+              "volume": 1660
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-01",
+              "open": 120.42,
+              "high": 121.04,
+              "low": 119.71,
+              "close": 120.76,
+              "volume": 359
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-01",
+              "open": 120.76,
+              "high": 121.79,
+              "low": 119.82,
+              "close": 119.98,
+              "volume": 1684
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-01",
+              "open": 119.98,
+              "high": 121.01,
+              "low": 118.4,
+              "close": 119.33,
+              "volume": 692
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-01",
+              "open": 119.33,
+              "high": 119.66,
+              "low": 117.92,
+              "close": 118.86,
+              "volume": 1381
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-01",
+              "open": 118.86,
+              "high": 119.85,
+              "low": 117.8,
+              "close": 118.58,
+              "volume": 884
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-01",
+              "open": 118.58,
+              "high": 119.05,
+              "low": 118.15,
+              "close": 118.45,
+              "volume": 398
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-01",
+              "open": 118.45,
+              "high": 118.9,
+              "low": 117.39,
+              "close": 118.27,
+              "volume": 1300
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-01",
+              "open": 118.27,
+              "high": 119.03,
+              "low": 117.19,
+              "close": 117.65,
+              "volume": 734
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-01",
+              "open": 117.65,
+              "high": 118.07,
+              "low": 116.84,
+              "close": 117.62,
+              "volume": 478
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-01",
+              "open": 117.62,
+              "high": 118.41,
+              "low": 117.23,
+              "close": 117.43,
+              "volume": 146
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-01",
+              "open": 117.43,
+              "high": 118.51,
+              "low": 116.92,
+              "close": 118.03,
+              "volume": 1224
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-01",
+              "open": 118.03,
+              "high": 118.84,
+              "low": 117.36,
+              "close": 118.36,
+              "volume": 118
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-01",
+              "open": 118.36,
+              "high": 119.15,
+              "low": 117.41,
+              "close": 118.12,
+              "volume": 502
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-01",
+              "open": 118.12,
+              "high": 118.49,
+              "low": 116.43,
+              "close": 117.31,
+              "volume": 1046
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-01",
+              "open": 117.31,
+              "high": 117.78,
+              "low": 116.65,
+              "close": 117.27,
+              "volume": 1688
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-01",
+              "open": 117.27,
+              "high": 118.11,
+              "low": 116.42,
+              "close": 117.43,
+              "volume": 852
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-01",
+              "open": 117.43,
+              "high": 118.44,
+              "low": 116.43,
+              "close": 118.26,
+              "volume": 286
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-01",
+              "open": 118.26,
+              "high": 118.87,
+              "low": 117.51,
+              "close": 117.98,
+              "volume": 403
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV15fuvzAEmd/",
+        "title": "K线形态——旗形整理",
+        "creator": "订单流刘教练",
+        "source_segment": {
+          "start_seconds": 183,
+          "end_seconds": 228,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "旗形整理与趋势延续，来源页标注为K线形态系列；本段用于测试旗形结构、通道边界与突破确认的讲解节奏。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-002",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“20240411 阿布 Emini 每日逐K解盘”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦20240411 阿布 Emini 每日逐K解盘所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：20240411 阿布 Emini 每日逐K解盘",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-02",
+              "open": 117.14,
+              "high": 117.91,
+              "low": 116.81,
+              "close": 117.24,
+              "volume": 1765
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-02",
+              "open": 117.24,
+              "high": 117.85,
+              "low": 116.36,
+              "close": 117.45,
+              "volume": 170
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-02",
+              "open": 117.45,
+              "high": 118.15,
+              "low": 117.07,
+              "close": 117.7,
+              "volume": 1626
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-02",
+              "open": 117.7,
+              "high": 118.96,
+              "low": 116.78,
+              "close": 118.77,
+              "volume": 1335
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-02",
+              "open": 118.77,
+              "high": 119.29,
+              "low": 117.85,
+              "close": 118.74,
+              "volume": 637
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-02",
+              "open": 118.74,
+              "high": 119.51,
+              "low": 117.76,
+              "close": 118.51,
+              "volume": 372
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-02",
+              "open": 118.51,
+              "high": 119.43,
+              "low": 117.91,
+              "close": 118.27,
+              "volume": 1000
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-02",
+              "open": 118.27,
+              "high": 118.5,
+              "low": 118.12,
+              "close": 118.31,
+              "volume": 374
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-02",
+              "open": 118.31,
+              "high": 119.27,
+              "low": 116.99,
+              "close": 117.63,
+              "volume": 1681
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-02",
+              "open": 117.63,
+              "high": 118.58,
+              "low": 116.98,
+              "close": 118.14,
+              "volume": 992
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-02",
+              "open": 118.14,
+              "high": 119.05,
+              "low": 117.7,
+              "close": 118.31,
+              "volume": 1127
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-02",
+              "open": 118.31,
+              "high": 118.66,
+              "low": 117.43,
+              "close": 117.95,
+              "volume": 175
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-02",
+              "open": 117.95,
+              "high": 118.37,
+              "low": 116.68,
+              "close": 117.37,
+              "volume": 247
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-02",
+              "open": 117.37,
+              "high": 118.57,
+              "low": 117.09,
+              "close": 117.65,
+              "volume": 1261
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-02",
+              "open": 117.65,
+              "high": 119.6,
+              "low": 117.36,
+              "close": 118.63,
+              "volume": 1688
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-02",
+              "open": 118.63,
+              "high": 119.48,
+              "low": 117.59,
+              "close": 118.93,
+              "volume": 491
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-02",
+              "open": 118.93,
+              "high": 120.07,
+              "low": 118.41,
+              "close": 119.53,
+              "volume": 602
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-02",
+              "open": 119.53,
+              "high": 119.96,
+              "low": 118.91,
+              "close": 119.68,
+              "volume": 344
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-02",
+              "open": 119.68,
+              "high": 120.1,
+              "low": 118.38,
+              "close": 119.12,
+              "volume": 1781
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-02",
+              "open": 119.12,
+              "high": 119.43,
+              "low": 117.56,
+              "close": 118.41,
+              "volume": 771
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-02",
+              "open": 118.41,
+              "high": 118.67,
+              "low": 117.62,
+              "close": 118.52,
+              "volume": 779
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-02",
+              "open": 118.52,
+              "high": 119.78,
+              "low": 118.13,
+              "close": 119.41,
+              "volume": 929
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-02",
+              "open": 119.41,
+              "high": 120.28,
+              "low": 118.48,
+              "close": 119.77,
+              "volume": 1479
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-02",
+              "open": 119.77,
+              "high": 121.48,
+              "low": 118.73,
+              "close": 120.66,
+              "volume": 656
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV1HD421p7vB/",
+        "title": "20240411 阿布 Emini 每日逐K解盘",
+        "creator": "小巫阿布专科小学",
+        "source_segment": {
+          "start_seconds": 420,
+          "end_seconds": 465,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "逐K复盘；页面说明使用文华复盘界面逐K出现，并对入场K线作标记。选择盘面逐步展开与关键K线标注作为参考。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-003",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“价格行为学：支撑和阻力 / Demand-Supply zone”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦价格行为学：支撑和阻力 / Demand-Supply zone所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：价格行为学：支撑和阻力 / Demand-Supply zone",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-03",
+              "open": 128.96,
+              "high": 129.77,
+              "low": 128.05,
+              "close": 128.35,
+              "volume": 589
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-03",
+              "open": 128.35,
+              "high": 129.29,
+              "low": 126.98,
+              "close": 127.75,
+              "volume": 1522
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-03",
+              "open": 127.75,
+              "high": 129.18,
+              "low": 127.29,
+              "close": 128.82,
+              "volume": 1550
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-03",
+              "open": 128.82,
+              "high": 129.32,
+              "low": 128.33,
+              "close": 128.79,
+              "volume": 522
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-03",
+              "open": 128.79,
+              "high": 130.51,
+              "low": 128.44,
+              "close": 129.65,
+              "volume": 1588
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-03",
+              "open": 129.65,
+              "high": 130.01,
+              "low": 128.95,
+              "close": 129.51,
+              "volume": 959
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-03",
+              "open": 129.51,
+              "high": 130.07,
+              "low": 128.46,
+              "close": 129.33,
+              "volume": 999
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-03",
+              "open": 129.33,
+              "high": 130.32,
+              "low": 128.56,
+              "close": 129.29,
+              "volume": 929
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-03",
+              "open": 129.29,
+              "high": 130.48,
+              "low": 129.08,
+              "close": 129.6,
+              "volume": 138
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-03",
+              "open": 129.6,
+              "high": 130.23,
+              "low": 128.22,
+              "close": 128.92,
+              "volume": 1707
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-03",
+              "open": 128.92,
+              "high": 130.26,
+              "low": 128.51,
+              "close": 129.46,
+              "volume": 1113
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-03",
+              "open": 129.46,
+              "high": 130.38,
+              "low": 128.14,
+              "close": 129.09,
+              "volume": 909
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-03",
+              "open": 129.09,
+              "high": 129.66,
+              "low": 127.64,
+              "close": 128.54,
+              "volume": 1236
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-03",
+              "open": 128.54,
+              "high": 129.52,
+              "low": 128.06,
+              "close": 128.42,
+              "volume": 1213
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-03",
+              "open": 128.42,
+              "high": 129.87,
+              "low": 128.05,
+              "close": 129.4,
+              "volume": 737
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-03",
+              "open": 129.4,
+              "high": 130.11,
+              "low": 128.17,
+              "close": 128.67,
+              "volume": 1075
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-03",
+              "open": 128.67,
+              "high": 129.21,
+              "low": 128.01,
+              "close": 128.23,
+              "volume": 1730
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-03",
+              "open": 128.23,
+              "high": 128.51,
+              "low": 126.92,
+              "close": 127.68,
+              "volume": 898
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-03",
+              "open": 127.68,
+              "high": 128.59,
+              "low": 126.33,
+              "close": 127.31,
+              "volume": 1617
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-03",
+              "open": 127.31,
+              "high": 127.52,
+              "low": 125.9,
+              "close": 126.46,
+              "volume": 221
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-03",
+              "open": 126.46,
+              "high": 127.73,
+              "low": 125.86,
+              "close": 127.43,
+              "volume": 1085
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-03",
+              "open": 127.43,
+              "high": 128.89,
+              "low": 126.83,
+              "close": 128.29,
+              "volume": 1071
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-03",
+              "open": 128.29,
+              "high": 129.75,
+              "low": 127.72,
+              "close": 129.09,
+              "volume": 1692
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-03",
+              "open": 129.09,
+              "high": 130.3,
+              "low": 128.29,
+              "close": 129.75,
+              "volume": 1489
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV1vzaWzdE9B/",
+        "title": "价格行为学：支撑和阻力 / Demand-Supply zone",
+        "creator": "Neo价格行为学",
+        "source_segment": {
+          "start_seconds": 180,
+          "end_seconds": 225,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "作者简介说明基于市场回放逐根解读并结合价格行为；适合测试区域定位、回测与确认叙述。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-004",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“图表技术系列：读懂价格背后的意义”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦图表技术系列：读懂价格背后的意义所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：图表技术系列：读懂价格背后的意义",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-04",
+              "open": 127.17,
+              "high": 128.55,
+              "low": 126.21,
+              "close": 127.71,
+              "volume": 632
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-04",
+              "open": 127.71,
+              "high": 129.14,
+              "low": 127.46,
+              "close": 128.22,
+              "volume": 770
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-04",
+              "open": 128.22,
+              "high": 128.87,
+              "low": 127.7,
+              "close": 128.57,
+              "volume": 253
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-04",
+              "open": 128.57,
+              "high": 129.0,
+              "low": 127.11,
+              "close": 128.11,
+              "volume": 1020
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-04",
+              "open": 128.11,
+              "high": 128.51,
+              "low": 127.4,
+              "close": 128.18,
+              "volume": 1495
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-04",
+              "open": 128.18,
+              "high": 128.72,
+              "low": 127.03,
+              "close": 127.74,
+              "volume": 1749
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-04",
+              "open": 127.74,
+              "high": 128.68,
+              "low": 127.41,
+              "close": 128.16,
+              "volume": 596
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-04",
+              "open": 128.16,
+              "high": 128.4,
+              "low": 126.89,
+              "close": 127.21,
+              "volume": 1520
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-04",
+              "open": 127.21,
+              "high": 127.93,
+              "low": 126.83,
+              "close": 127.5,
+              "volume": 1377
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-04",
+              "open": 127.5,
+              "high": 127.67,
+              "low": 125.91,
+              "close": 126.69,
+              "volume": 549
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-04",
+              "open": 126.69,
+              "high": 127.24,
+              "low": 125.82,
+              "close": 127.04,
+              "volume": 1364
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-04",
+              "open": 127.04,
+              "high": 127.31,
+              "low": 126.19,
+              "close": 126.92,
+              "volume": 1328
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-04",
+              "open": 126.92,
+              "high": 128.48,
+              "low": 125.94,
+              "close": 127.52,
+              "volume": 660
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-04",
+              "open": 127.52,
+              "high": 128.37,
+              "low": 127.22,
+              "close": 127.83,
+              "volume": 1547
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-04",
+              "open": 127.83,
+              "high": 129.44,
+              "low": 126.78,
+              "close": 128.67,
+              "volume": 1288
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-04",
+              "open": 128.67,
+              "high": 129.02,
+              "low": 127.42,
+              "close": 128.39,
+              "volume": 206
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-04",
+              "open": 128.39,
+              "high": 128.93,
+              "low": 127.22,
+              "close": 128.26,
+              "volume": 265
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-04",
+              "open": 128.26,
+              "high": 129.2,
+              "low": 127.29,
+              "close": 127.44,
+              "volume": 1434
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-04",
+              "open": 127.44,
+              "high": 128.55,
+              "low": 126.93,
+              "close": 127.79,
+              "volume": 1036
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-04",
+              "open": 127.79,
+              "high": 128.63,
+              "low": 127.48,
+              "close": 127.68,
+              "volume": 1466
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-04",
+              "open": 127.68,
+              "high": 128.68,
+              "low": 126.68,
+              "close": 127.33,
+              "volume": 125
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-04",
+              "open": 127.33,
+              "high": 128.15,
+              "low": 126.59,
+              "close": 126.83,
+              "volume": 626
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-04",
+              "open": 126.83,
+              "high": 128.3,
+              "low": 125.97,
+              "close": 127.29,
+              "volume": 1459
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-04",
+              "open": 127.29,
+              "high": 127.46,
+              "low": 126.39,
+              "close": 126.73,
+              "volume": 1137
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV1ArRyBvEpo/",
+        "title": "图表技术系列：读懂价格背后的意义",
+        "creator": "路肖南Lester",
+        "source_segment": {
+          "start_seconds": 420,
+          "end_seconds": 465,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "页面介绍侧重价格波动含义，系列含K线学习与价格行为课程；测试由整体结构收束到局部K线的讲解。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-005",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“K线基础入门教程第一期：K线绘制”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦K线基础入门教程第一期：K线绘制所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：K线基础入门教程第一期：K线绘制",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-05",
+              "open": 111.31,
+              "high": 113.16,
+              "low": 110.97,
+              "close": 112.25,
+              "volume": 724
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-05",
+              "open": 112.25,
+              "high": 112.89,
+              "low": 111.25,
+              "close": 112.71,
+              "volume": 623
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-05",
+              "open": 112.71,
+              "high": 113.36,
+              "low": 111.9,
+              "close": 112.14,
+              "volume": 354
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-05",
+              "open": 112.14,
+              "high": 113.29,
+              "low": 111.81,
+              "close": 112.48,
+              "volume": 1727
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-05",
+              "open": 112.48,
+              "high": 113.9,
+              "low": 111.51,
+              "close": 113.46,
+              "volume": 1223
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-05",
+              "open": 113.46,
+              "high": 114.03,
+              "low": 112.82,
+              "close": 113.06,
+              "volume": 1402
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-05",
+              "open": 113.06,
+              "high": 113.89,
+              "low": 112.59,
+              "close": 113.2,
+              "volume": 823
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-05",
+              "open": 113.2,
+              "high": 113.5,
+              "low": 111.95,
+              "close": 112.52,
+              "volume": 244
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-05",
+              "open": 112.52,
+              "high": 112.73,
+              "low": 111.47,
+              "close": 112.19,
+              "volume": 1593
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-05",
+              "open": 112.19,
+              "high": 112.86,
+              "low": 111.89,
+              "close": 112.67,
+              "volume": 1773
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-05",
+              "open": 112.67,
+              "high": 113.87,
+              "low": 111.74,
+              "close": 113.03,
+              "volume": 1015
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-05",
+              "open": 113.03,
+              "high": 113.73,
+              "low": 112.42,
+              "close": 113.14,
+              "volume": 1088
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-05",
+              "open": 113.14,
+              "high": 114.15,
+              "low": 112.54,
+              "close": 113.26,
+              "volume": 446
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-05",
+              "open": 113.26,
+              "high": 113.78,
+              "low": 111.83,
+              "close": 112.71,
+              "volume": 1387
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-05",
+              "open": 112.71,
+              "high": 113.89,
+              "low": 111.72,
+              "close": 113.73,
+              "volume": 979
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-05",
+              "open": 113.73,
+              "high": 114.23,
+              "low": 113.52,
+              "close": 113.77,
+              "volume": 366
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-05",
+              "open": 113.77,
+              "high": 114.13,
+              "low": 112.65,
+              "close": 112.97,
+              "volume": 1401
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-05",
+              "open": 112.97,
+              "high": 113.59,
+              "low": 112.69,
+              "close": 113.24,
+              "volume": 1653
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-05",
+              "open": 113.24,
+              "high": 113.54,
+              "low": 112.2,
+              "close": 112.87,
+              "volume": 1367
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-05",
+              "open": 112.87,
+              "high": 113.82,
+              "low": 112.39,
+              "close": 113.2,
+              "volume": 842
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-05",
+              "open": 113.2,
+              "high": 113.97,
+              "low": 112.44,
+              "close": 113.41,
+              "volume": 1018
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-05",
+              "open": 113.41,
+              "high": 114.02,
+              "low": 112.43,
+              "close": 113.42,
+              "volume": 1647
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-05",
+              "open": 113.42,
+              "high": 113.86,
+              "low": 113.06,
+              "close": 113.24,
+              "volume": 1259
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-05",
+              "open": 113.24,
+              "high": 114.96,
+              "low": 112.57,
+              "close": 113.99,
+              "volume": 461
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV1hgnHzmEEF/",
+        "title": "K线基础入门教程第一期：K线绘制",
+        "creator": "比特币风铃",
+        "source_segment": {
+          "start_seconds": 360,
+          "end_seconds": 405,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "系列讲解K线构成及单根形态，页面显示后续有双K组合和实战内容；选取基础图表讲解段。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-006",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“12种K线形态教学”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦12种K线形态教学所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：12种K线形态教学",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-06",
+              "open": 116.17,
+              "high": 116.35,
+              "low": 115.3,
+              "close": 116.03,
+              "volume": 530
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-06",
+              "open": 116.03,
+              "high": 117.26,
+              "low": 115.55,
+              "close": 117.06,
+              "volume": 374
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-06",
+              "open": 117.06,
+              "high": 118.68,
+              "low": 116.02,
+              "close": 118.12,
+              "volume": 596
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-06",
+              "open": 118.12,
+              "high": 119.17,
+              "low": 116.56,
+              "close": 117.53,
+              "volume": 1771
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-06",
+              "open": 117.53,
+              "high": 118.89,
+              "low": 116.5,
+              "close": 117.92,
+              "volume": 1440
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-06",
+              "open": 117.92,
+              "high": 118.86,
+              "low": 116.99,
+              "close": 117.5,
+              "volume": 609
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-06",
+              "open": 117.5,
+              "high": 118.62,
+              "low": 116.66,
+              "close": 117.86,
+              "volume": 1258
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-06",
+              "open": 117.86,
+              "high": 118.26,
+              "low": 116.36,
+              "close": 117.01,
+              "volume": 328
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-06",
+              "open": 117.01,
+              "high": 118.04,
+              "low": 116.75,
+              "close": 117.05,
+              "volume": 732
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-06",
+              "open": 117.05,
+              "high": 117.9,
+              "low": 116.82,
+              "close": 117.53,
+              "volume": 598
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-06",
+              "open": 117.53,
+              "high": 118.34,
+              "low": 117.35,
+              "close": 118.09,
+              "volume": 1635
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-06",
+              "open": 118.09,
+              "high": 118.63,
+              "low": 117.36,
+              "close": 118.32,
+              "volume": 1066
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-06",
+              "open": 118.32,
+              "high": 119.39,
+              "low": 117.39,
+              "close": 118.78,
+              "volume": 780
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-06",
+              "open": 118.78,
+              "high": 119.25,
+              "low": 117.79,
+              "close": 119.04,
+              "volume": 310
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-06",
+              "open": 119.04,
+              "high": 119.8,
+              "low": 118.05,
+              "close": 119.21,
+              "volume": 619
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-06",
+              "open": 119.21,
+              "high": 120.17,
+              "low": 118.25,
+              "close": 119.19,
+              "volume": 448
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-06",
+              "open": 119.19,
+              "high": 120.24,
+              "low": 118.58,
+              "close": 119.35,
+              "volume": 960
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-06",
+              "open": 119.35,
+              "high": 120.46,
+              "low": 118.77,
+              "close": 119.47,
+              "volume": 984
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-06",
+              "open": 119.47,
+              "high": 120.87,
+              "low": 119.05,
+              "close": 119.98,
+              "volume": 878
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-06",
+              "open": 119.98,
+              "high": 121.08,
+              "low": 119.56,
+              "close": 120.1,
+              "volume": 1763
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-06",
+              "open": 120.1,
+              "high": 121.34,
+              "low": 119.61,
+              "close": 120.56,
+              "volume": 1160
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-06",
+              "open": 120.56,
+              "high": 120.86,
+              "low": 119.75,
+              "close": 120.17,
+              "volume": 756
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-06",
+              "open": 120.17,
+              "high": 120.49,
+              "low": 118.73,
+              "close": 119.57,
+              "volume": 1251
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-06",
+              "open": 119.57,
+              "high": 120.22,
+              "low": 118.62,
+              "close": 119.0,
+              "volume": 902
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV1TzobBBEak/",
+        "title": "12种K线形态教学",
+        "creator": "在下刀哥",
+        "source_segment": {
+          "start_seconds": 40,
+          "end_seconds": 85,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "近期形态讲解视频，标题明确聚焦K线形态；测试单个组合形态的重点标识和短叙事。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-007",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“裸K交易逻辑实战应用拆解”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦裸K交易逻辑实战应用拆解所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：裸K交易逻辑实战应用拆解",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-07",
+              "open": 116.46,
+              "high": 117.93,
+              "low": 115.53,
+              "close": 117.11,
+              "volume": 685
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-07",
+              "open": 117.11,
+              "high": 117.59,
+              "low": 116.9,
+              "close": 117.21,
+              "volume": 1176
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-07",
+              "open": 117.21,
+              "high": 118.85,
+              "low": 116.81,
+              "close": 117.86,
+              "volume": 850
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-07",
+              "open": 117.86,
+              "high": 119.58,
+              "low": 116.88,
+              "close": 118.6,
+              "volume": 298
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-07",
+              "open": 118.6,
+              "high": 119.61,
+              "low": 118.43,
+              "close": 118.59,
+              "volume": 1578
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-07",
+              "open": 118.59,
+              "high": 119.4,
+              "low": 117.97,
+              "close": 118.42,
+              "volume": 1116
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-07",
+              "open": 118.42,
+              "high": 118.79,
+              "low": 117.06,
+              "close": 117.5,
+              "volume": 421
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-07",
+              "open": 117.5,
+              "high": 118.16,
+              "low": 116.49,
+              "close": 117.07,
+              "volume": 839
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-07",
+              "open": 117.07,
+              "high": 117.37,
+              "low": 115.98,
+              "close": 116.2,
+              "volume": 366
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-07",
+              "open": 116.2,
+              "high": 117.09,
+              "low": 115.1,
+              "close": 116.12,
+              "volume": 1114
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-07",
+              "open": 116.12,
+              "high": 116.83,
+              "low": 115.86,
+              "close": 116.04,
+              "volume": 1689
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-07",
+              "open": 116.04,
+              "high": 117.44,
+              "low": 115.44,
+              "close": 116.42,
+              "volume": 1649
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-07",
+              "open": 116.42,
+              "high": 117.31,
+              "low": 115.61,
+              "close": 115.87,
+              "volume": 789
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-07",
+              "open": 115.87,
+              "high": 116.41,
+              "low": 115.38,
+              "close": 116.17,
+              "volume": 505
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-07",
+              "open": 116.17,
+              "high": 117.05,
+              "low": 115.79,
+              "close": 116.29,
+              "volume": 1294
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-07",
+              "open": 116.29,
+              "high": 116.88,
+              "low": 115.62,
+              "close": 116.51,
+              "volume": 454
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-07",
+              "open": 116.51,
+              "high": 117.26,
+              "low": 115.29,
+              "close": 115.53,
+              "volume": 1532
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-07",
+              "open": 115.53,
+              "high": 115.8,
+              "low": 113.87,
+              "close": 114.82,
+              "volume": 1358
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-07",
+              "open": 114.82,
+              "high": 115.61,
+              "low": 114.22,
+              "close": 114.86,
+              "volume": 1636
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-07",
+              "open": 114.86,
+              "high": 115.68,
+              "low": 113.71,
+              "close": 114.13,
+              "volume": 1005
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-07",
+              "open": 114.13,
+              "high": 115.64,
+              "low": 113.35,
+              "close": 114.76,
+              "volume": 1791
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-07",
+              "open": 114.76,
+              "high": 115.72,
+              "low": 114.12,
+              "close": 115.01,
+              "volume": 447
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-07",
+              "open": 115.01,
+              "high": 115.6,
+              "low": 114.37,
+              "close": 114.97,
+              "volume": 1497
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-07",
+              "open": 114.97,
+              "high": 115.82,
+              "low": 114.28,
+              "close": 114.5,
+              "volume": 1253
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV1Yf846kEir/",
+        "title": "裸K交易逻辑实战应用拆解",
+        "creator": "交易员江河",
+        "source_segment": {
+          "start_seconds": 300,
+          "end_seconds": 345,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "页面标为裸K实战复盘、边做边讲；用于测试真实盘面上的结构判断与操作讲述。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-008",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“别急着预测，先把盘面看明白｜黄金复盘143”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦别急着预测，先把盘面看明白｜黄金复盘143所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：别急着预测，先把盘面看明白｜黄金复盘143",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-08",
+              "open": 113.76,
+              "high": 114.8,
+              "low": 113.35,
+              "close": 114.62,
+              "volume": 1404
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-08",
+              "open": 114.62,
+              "high": 115.39,
+              "low": 114.16,
+              "close": 115.12,
+              "volume": 1622
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-08",
+              "open": 115.12,
+              "high": 115.41,
+              "low": 114.16,
+              "close": 115.24,
+              "volume": 365
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-08",
+              "open": 115.24,
+              "high": 115.57,
+              "low": 113.92,
+              "close": 114.71,
+              "volume": 208
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-08",
+              "open": 114.71,
+              "high": 115.4,
+              "low": 114.13,
+              "close": 114.38,
+              "volume": 765
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-08",
+              "open": 114.38,
+              "high": 114.99,
+              "low": 112.72,
+              "close": 113.62,
+              "volume": 299
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-08",
+              "open": 113.62,
+              "high": 113.81,
+              "low": 112.41,
+              "close": 113.3,
+              "volume": 1596
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-08",
+              "open": 113.3,
+              "high": 113.93,
+              "low": 113.01,
+              "close": 113.57,
+              "volume": 433
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-08",
+              "open": 113.57,
+              "high": 114.35,
+              "low": 113.04,
+              "close": 113.45,
+              "volume": 1706
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-08",
+              "open": 113.45,
+              "high": 115.08,
+              "low": 113.11,
+              "close": 114.12,
+              "volume": 987
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-08",
+              "open": 114.12,
+              "high": 114.67,
+              "low": 113.79,
+              "close": 114.37,
+              "volume": 1725
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-08",
+              "open": 114.37,
+              "high": 114.96,
+              "low": 113.67,
+              "close": 114.73,
+              "volume": 329
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-08",
+              "open": 114.73,
+              "high": 115.1,
+              "low": 113.87,
+              "close": 114.43,
+              "volume": 1065
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-08",
+              "open": 114.43,
+              "high": 116.46,
+              "low": 113.98,
+              "close": 115.46,
+              "volume": 1028
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-08",
+              "open": 115.46,
+              "high": 116.09,
+              "low": 114.65,
+              "close": 115.32,
+              "volume": 1718
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-08",
+              "open": 115.32,
+              "high": 116.33,
+              "low": 113.85,
+              "close": 114.73,
+              "volume": 1343
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-08",
+              "open": 114.73,
+              "high": 115.59,
+              "low": 113.57,
+              "close": 114.37,
+              "volume": 320
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-08",
+              "open": 114.37,
+              "high": 115.32,
+              "low": 113.69,
+              "close": 114.79,
+              "volume": 956
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-08",
+              "open": 114.79,
+              "high": 115.76,
+              "low": 113.63,
+              "close": 114.6,
+              "volume": 1001
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-08",
+              "open": 114.6,
+              "high": 115.72,
+              "low": 114.29,
+              "close": 114.91,
+              "volume": 725
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-08",
+              "open": 114.91,
+              "high": 116.67,
+              "low": 114.61,
+              "close": 115.91,
+              "volume": 790
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-08",
+              "open": 115.91,
+              "high": 116.29,
+              "low": 115.19,
+              "close": 115.56,
+              "volume": 213
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-08",
+              "open": 115.56,
+              "high": 116.66,
+              "low": 115.03,
+              "close": 116.3,
+              "volume": 981
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-08",
+              "open": 116.3,
+              "high": 117.79,
+              "low": 115.69,
+              "close": 117.36,
+              "volume": 164
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV1Wdur6EEcJ/",
+        "title": "别急着预测，先把盘面看明白｜黄金复盘143",
+        "creator": "midas",
+        "source_segment": {
+          "start_seconds": 15,
+          "end_seconds": 60,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "页面列出该条视频时长1:35，描述聚焦黄金K线结构、等待和确认；选取短片段做叙事与图表并行案例。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-009",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“裸K交易法：趋势突破与延续”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦裸K交易法：趋势突破与延续所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：裸K交易法：趋势突破与延续",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-09",
+              "open": 108.16,
+              "high": 108.58,
+              "low": 107.7,
+              "close": 108.36,
+              "volume": 248
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-09",
+              "open": 108.36,
+              "high": 108.8,
+              "low": 107.48,
+              "close": 108.55,
+              "volume": 737
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-09",
+              "open": 108.55,
+              "high": 110.11,
+              "low": 107.59,
+              "close": 109.37,
+              "volume": 236
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-09",
+              "open": 109.37,
+              "high": 110.24,
+              "low": 108.16,
+              "close": 108.97,
+              "volume": 532
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-09",
+              "open": 108.97,
+              "high": 110.86,
+              "low": 108.44,
+              "close": 110.03,
+              "volume": 1355
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-09",
+              "open": 110.03,
+              "high": 110.81,
+              "low": 108.73,
+              "close": 109.71,
+              "volume": 452
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-09",
+              "open": 109.71,
+              "high": 110.18,
+              "low": 108.45,
+              "close": 109.25,
+              "volume": 755
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-09",
+              "open": 109.25,
+              "high": 109.48,
+              "low": 107.57,
+              "close": 108.4,
+              "volume": 749
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-09",
+              "open": 108.4,
+              "high": 109.5,
+              "low": 107.41,
+              "close": 108.72,
+              "volume": 1186
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-09",
+              "open": 108.72,
+              "high": 109.77,
+              "low": 107.91,
+              "close": 108.83,
+              "volume": 1759
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-09",
+              "open": 108.83,
+              "high": 109.78,
+              "low": 108.09,
+              "close": 109.4,
+              "volume": 1109
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-09",
+              "open": 109.4,
+              "high": 111.29,
+              "low": 108.93,
+              "close": 110.31,
+              "volume": 1382
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-09",
+              "open": 110.31,
+              "high": 111.4,
+              "low": 109.52,
+              "close": 111.03,
+              "volume": 968
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-09",
+              "open": 111.03,
+              "high": 111.55,
+              "low": 109.99,
+              "close": 110.89,
+              "volume": 393
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-09",
+              "open": 110.89,
+              "high": 111.91,
+              "low": 110.24,
+              "close": 111.26,
+              "volume": 226
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-09",
+              "open": 111.26,
+              "high": 112.45,
+              "low": 111.08,
+              "close": 111.75,
+              "volume": 1212
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-09",
+              "open": 111.75,
+              "high": 112.48,
+              "low": 111.34,
+              "close": 111.86,
+              "volume": 716
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-09",
+              "open": 111.86,
+              "high": 112.02,
+              "low": 110.73,
+              "close": 111.13,
+              "volume": 921
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-09",
+              "open": 111.13,
+              "high": 111.97,
+              "low": 110.42,
+              "close": 111.73,
+              "volume": 1279
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-09",
+              "open": 111.73,
+              "high": 112.64,
+              "low": 111.17,
+              "close": 111.93,
+              "volume": 510
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-09",
+              "open": 111.93,
+              "high": 112.96,
+              "low": 111.13,
+              "close": 111.86,
+              "volume": 1162
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-09",
+              "open": 111.86,
+              "high": 113.2,
+              "low": 111.69,
+              "close": 112.85,
+              "volume": 146
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-09",
+              "open": 112.85,
+              "high": 113.62,
+              "low": 112.27,
+              "close": 113.24,
+              "volume": 458
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-09",
+              "open": 113.24,
+              "high": 114.5,
+              "low": 112.28,
+              "close": 113.65,
+              "volume": 232
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/video/BV1wbgHzgEZp/",
+        "title": "裸K交易法：趋势突破与延续",
+        "creator": "未能从搜索摘要可靠确认账号名",
+        "source_segment": {
+          "start_seconds": 45,
+          "end_seconds": 90,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "搜索页摘要明确包含楔形突破、头肩底突破、颈线与第一目标；用于突破/形态判断。账号名未在样本元数据中推定。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-010",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“第三次反弹更弱？头肩顶怎么确认”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦第三次反弹更弱？头肩顶怎么确认所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：第三次反弹更弱？头肩顶怎么确认",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-10",
+              "open": 114.93,
+              "high": 115.65,
+              "low": 114.38,
+              "close": 114.75,
+              "volume": 1069
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-10",
+              "open": 114.75,
+              "high": 115.87,
+              "low": 114.11,
+              "close": 115.42,
+              "volume": 559
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-10",
+              "open": 115.42,
+              "high": 116.17,
+              "low": 115.13,
+              "close": 115.94,
+              "volume": 1790
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-10",
+              "open": 115.94,
+              "high": 116.41,
+              "low": 115.13,
+              "close": 115.48,
+              "volume": 240
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-10",
+              "open": 115.48,
+              "high": 116.95,
+              "low": 114.79,
+              "close": 116.5,
+              "volume": 1344
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-10",
+              "open": 116.5,
+              "high": 116.73,
+              "low": 115.24,
+              "close": 116.22,
+              "volume": 231
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-10",
+              "open": 116.22,
+              "high": 117.28,
+              "low": 115.36,
+              "close": 116.39,
+              "volume": 1417
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-10",
+              "open": 116.39,
+              "high": 116.95,
+              "low": 115.94,
+              "close": 116.8,
+              "volume": 1735
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-10",
+              "open": 116.8,
+              "high": 118.15,
+              "low": 116.55,
+              "close": 117.37,
+              "volume": 1006
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-10",
+              "open": 117.37,
+              "high": 118.14,
+              "low": 116.25,
+              "close": 116.82,
+              "volume": 652
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-10",
+              "open": 116.82,
+              "high": 117.88,
+              "low": 116.56,
+              "close": 117.25,
+              "volume": 1497
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-10",
+              "open": 117.25,
+              "high": 118.46,
+              "low": 116.36,
+              "close": 117.68,
+              "volume": 1380
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-10",
+              "open": 117.68,
+              "high": 119.03,
+              "low": 117.14,
+              "close": 118.39,
+              "volume": 1159
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-10",
+              "open": 118.39,
+              "high": 120.03,
+              "low": 118.12,
+              "close": 119.14,
+              "volume": 1268
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-10",
+              "open": 119.14,
+              "high": 120.34,
+              "low": 118.22,
+              "close": 119.92,
+              "volume": 1652
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-10",
+              "open": 119.92,
+              "high": 120.07,
+              "low": 119.63,
+              "close": 119.79,
+              "volume": 1302
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-10",
+              "open": 119.79,
+              "high": 120.51,
+              "low": 118.92,
+              "close": 119.93,
+              "volume": 1439
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-10",
+              "open": 119.93,
+              "high": 121.21,
+              "low": 119.58,
+              "close": 120.33,
+              "volume": 1586
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-10",
+              "open": 120.33,
+              "high": 121.24,
+              "low": 119.92,
+              "close": 120.3,
+              "volume": 1759
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-10",
+              "open": 120.3,
+              "high": 120.48,
+              "low": 119.09,
+              "close": 119.7,
+              "volume": 261
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-10",
+              "open": 119.7,
+              "high": 120.94,
+              "low": 119.32,
+              "close": 120.18,
+              "volume": 962
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-10",
+              "open": 120.18,
+              "high": 120.86,
+              "low": 119.29,
+              "close": 120.34,
+              "volume": 1062
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-10",
+              "open": 120.34,
+              "high": 120.6,
+              "low": 119.66,
+              "close": 119.86,
+              "volume": 1695
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-10",
+              "open": 119.86,
+              "high": 120.41,
+              "low": 118.54,
+              "close": 119.26,
+              "volume": 118
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "douyin",
+        "url": "https://www.douyin.com/video/7687999617081806095",
+        "title": "第三次反弹更弱？头肩顶怎么确认",
+        "creator": "哆啦ABCD梦",
+        "source_segment": {
+          "start_seconds": 35,
+          "end_seconds": 80,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "同一K线教学系列；构造K线标示18元颈线，并讲第三次反弹、确认与失效条件。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-011",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“下降三角形：支撑不破，反弹却越来越弱”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦下降三角形：支撑不破，反弹却越来越弱所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：下降三角形：支撑不破，反弹却越来越弱",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-11",
+              "open": 102.71,
+              "high": 103.98,
+              "low": 101.89,
+              "close": 103.7,
+              "volume": 263
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-11",
+              "open": 103.7,
+              "high": 104.76,
+              "low": 103.23,
+              "close": 104.34,
+              "volume": 1578
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-11",
+              "open": 104.34,
+              "high": 106.2,
+              "low": 103.76,
+              "close": 105.27,
+              "volume": 889
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-11",
+              "open": 105.27,
+              "high": 105.82,
+              "low": 104.48,
+              "close": 105.3,
+              "volume": 978
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-11",
+              "open": 105.3,
+              "high": 107.2,
+              "low": 105.12,
+              "close": 106.36,
+              "volume": 626
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-11",
+              "open": 106.36,
+              "high": 106.71,
+              "low": 104.63,
+              "close": 105.42,
+              "volume": 1268
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-11",
+              "open": 105.42,
+              "high": 105.77,
+              "low": 104.7,
+              "close": 105.2,
+              "volume": 281
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-11",
+              "open": 105.2,
+              "high": 106.02,
+              "low": 104.71,
+              "close": 105.04,
+              "volume": 1665
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-11",
+              "open": 105.04,
+              "high": 105.34,
+              "low": 103.93,
+              "close": 104.38,
+              "volume": 117
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-11",
+              "open": 104.38,
+              "high": 105.37,
+              "low": 103.12,
+              "close": 103.55,
+              "volume": 841
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-11",
+              "open": 103.55,
+              "high": 104.34,
+              "low": 103.24,
+              "close": 103.97,
+              "volume": 436
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-11",
+              "open": 103.97,
+              "high": 104.62,
+              "low": 103.17,
+              "close": 103.72,
+              "volume": 717
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-11",
+              "open": 103.72,
+              "high": 105.06,
+              "low": 102.92,
+              "close": 104.17,
+              "volume": 1791
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-11",
+              "open": 104.17,
+              "high": 105.03,
+              "low": 103.92,
+              "close": 104.34,
+              "volume": 1774
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-11",
+              "open": 104.34,
+              "high": 105.05,
+              "low": 104.14,
+              "close": 104.83,
+              "volume": 1535
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-11",
+              "open": 104.83,
+              "high": 105.42,
+              "low": 104.43,
+              "close": 105.0,
+              "volume": 271
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-11",
+              "open": 105.0,
+              "high": 105.88,
+              "low": 104.41,
+              "close": 105.01,
+              "volume": 240
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-11",
+              "open": 105.01,
+              "high": 105.66,
+              "low": 104.56,
+              "close": 104.82,
+              "volume": 559
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-11",
+              "open": 104.82,
+              "high": 105.35,
+              "low": 103.8,
+              "close": 104.48,
+              "volume": 1401
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-11",
+              "open": 104.48,
+              "high": 105.51,
+              "low": 103.07,
+              "close": 103.94,
+              "volume": 1588
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-11",
+              "open": 103.94,
+              "high": 105.9,
+              "low": 103.5,
+              "close": 105.0,
+              "volume": 823
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-11",
+              "open": 105.0,
+              "high": 106.05,
+              "low": 104.82,
+              "close": 105.33,
+              "volume": 1559
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-11",
+              "open": 105.33,
+              "high": 106.42,
+              "low": 104.76,
+              "close": 105.83,
+              "volume": 696
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-11",
+              "open": 105.83,
+              "high": 107.33,
+              "low": 105.1,
+              "close": 106.82,
+              "volume": 527
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "douyin",
+        "url": "https://www.douyin.com/video/7688488187932577058",
+        "title": "下降三角形：支撑不破，反弹却越来越弱",
+        "creator": "哆啦ABCD梦",
+        "source_segment": {
+          "start_seconds": 30,
+          "end_seconds": 75,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "同系列形态讲解；关注水平支撑、多次反弹力度与破位跟进。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-012",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“菱形形态：波动先放大再收敛”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦菱形形态：波动先放大再收敛所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：菱形形态：波动先放大再收敛",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-12",
+              "open": 109.23,
+              "high": 109.98,
+              "low": 108.36,
+              "close": 109.59,
+              "volume": 1056
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-12",
+              "open": 109.59,
+              "high": 111.49,
+              "low": 109.4,
+              "close": 110.46,
+              "volume": 288
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-12",
+              "open": 110.46,
+              "high": 111.28,
+              "low": 109.96,
+              "close": 110.96,
+              "volume": 590
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-12",
+              "open": 110.96,
+              "high": 112.38,
+              "low": 110.44,
+              "close": 111.42,
+              "volume": 1587
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-12",
+              "open": 111.42,
+              "high": 111.85,
+              "low": 110.36,
+              "close": 111.07,
+              "volume": 1482
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-12",
+              "open": 111.07,
+              "high": 111.76,
+              "low": 109.44,
+              "close": 110.32,
+              "volume": 198
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-12",
+              "open": 110.32,
+              "high": 110.57,
+              "low": 109.89,
+              "close": 110.33,
+              "volume": 141
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-12",
+              "open": 110.33,
+              "high": 111.29,
+              "low": 109.47,
+              "close": 110.94,
+              "volume": 1219
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-12",
+              "open": 110.94,
+              "high": 111.94,
+              "low": 110.13,
+              "close": 110.4,
+              "volume": 624
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-12",
+              "open": 110.4,
+              "high": 111.25,
+              "low": 109.5,
+              "close": 110.92,
+              "volume": 500
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-12",
+              "open": 110.92,
+              "high": 112.3,
+              "low": 110.32,
+              "close": 111.28,
+              "volume": 1757
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-12",
+              "open": 111.28,
+              "high": 111.97,
+              "low": 110.38,
+              "close": 111.48,
+              "volume": 1424
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-12",
+              "open": 111.48,
+              "high": 111.66,
+              "low": 110.22,
+              "close": 111.02,
+              "volume": 266
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-12",
+              "open": 111.02,
+              "high": 111.52,
+              "low": 110.25,
+              "close": 110.69,
+              "volume": 1238
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-12",
+              "open": 110.69,
+              "high": 111.53,
+              "low": 110.19,
+              "close": 110.72,
+              "volume": 1521
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-12",
+              "open": 110.72,
+              "high": 111.44,
+              "low": 109.92,
+              "close": 111.13,
+              "volume": 1042
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-12",
+              "open": 111.13,
+              "high": 112.34,
+              "low": 110.45,
+              "close": 111.73,
+              "volume": 885
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-12",
+              "open": 111.73,
+              "high": 112.11,
+              "low": 110.13,
+              "close": 110.76,
+              "volume": 328
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-12",
+              "open": 110.76,
+              "high": 111.55,
+              "low": 110.11,
+              "close": 111.2,
+              "volume": 1223
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-12",
+              "open": 111.2,
+              "high": 111.81,
+              "low": 109.9,
+              "close": 110.92,
+              "volume": 973
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-12",
+              "open": 110.92,
+              "high": 112.89,
+              "low": 110.25,
+              "close": 111.9,
+              "volume": 1675
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-12",
+              "open": 111.9,
+              "high": 113.44,
+              "low": 110.95,
+              "close": 112.68,
+              "volume": 480
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-12",
+              "open": 112.68,
+              "high": 113.21,
+              "low": 112.08,
+              "close": 112.68,
+              "volume": 1478
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-12",
+              "open": 112.68,
+              "high": 113.61,
+              "low": 111.7,
+              "close": 113.26,
+              "volume": 1107
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "douyin",
+        "url": "https://www.douyin.com/video/7689091448465149210",
+        "title": "菱形形态：波动先放大再收敛",
+        "creator": "哆啦ABCD梦",
+        "source_segment": {
+          "start_seconds": 30,
+          "end_seconds": 75,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "同系列形态讲解；先扩张后收敛，再观察突破方向和跟进。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-013",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“圆弧底怎么确认？”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦圆弧底怎么确认？所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：圆弧底怎么确认？",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-13",
+              "open": 112.44,
+              "high": 113.35,
+              "low": 111.75,
+              "close": 112.3,
+              "volume": 1182
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-13",
+              "open": 112.3,
+              "high": 113.41,
+              "low": 111.41,
+              "close": 112.42,
+              "volume": 993
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-13",
+              "open": 112.42,
+              "high": 113.54,
+              "low": 111.77,
+              "close": 113.32,
+              "volume": 640
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-13",
+              "open": 113.32,
+              "high": 113.9,
+              "low": 112.25,
+              "close": 113.03,
+              "volume": 626
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-13",
+              "open": 113.03,
+              "high": 113.65,
+              "low": 111.67,
+              "close": 112.59,
+              "volume": 1733
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-13",
+              "open": 112.59,
+              "high": 113.01,
+              "low": 111.82,
+              "close": 112.75,
+              "volume": 852
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-13",
+              "open": 112.75,
+              "high": 113.23,
+              "low": 112.36,
+              "close": 112.72,
+              "volume": 1400
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-13",
+              "open": 112.72,
+              "high": 113.27,
+              "low": 111.9,
+              "close": 112.09,
+              "volume": 413
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-13",
+              "open": 112.09,
+              "high": 113.23,
+              "low": 111.64,
+              "close": 112.38,
+              "volume": 754
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-13",
+              "open": 112.38,
+              "high": 113.06,
+              "low": 112.07,
+              "close": 112.66,
+              "volume": 980
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-13",
+              "open": 112.66,
+              "high": 113.68,
+              "low": 111.52,
+              "close": 112.16,
+              "volume": 473
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-13",
+              "open": 112.16,
+              "high": 113.21,
+              "low": 111.28,
+              "close": 112.92,
+              "volume": 986
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-13",
+              "open": 112.92,
+              "high": 113.63,
+              "low": 112.08,
+              "close": 113.02,
+              "volume": 1617
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-13",
+              "open": 113.02,
+              "high": 114.49,
+              "low": 112.66,
+              "close": 114.05,
+              "volume": 1237
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-13",
+              "open": 114.05,
+              "high": 114.54,
+              "low": 113.34,
+              "close": 114.03,
+              "volume": 1413
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-13",
+              "open": 114.03,
+              "high": 114.77,
+              "low": 113.82,
+              "close": 114.35,
+              "volume": 691
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-13",
+              "open": 114.35,
+              "high": 115.27,
+              "low": 113.18,
+              "close": 114.11,
+              "volume": 370
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-13",
+              "open": 114.11,
+              "high": 114.51,
+              "low": 112.54,
+              "close": 113.33,
+              "volume": 1315
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-13",
+              "open": 113.33,
+              "high": 114.25,
+              "low": 112.29,
+              "close": 113.52,
+              "volume": 265
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-13",
+              "open": 113.52,
+              "high": 115.16,
+              "low": 112.86,
+              "close": 114.2,
+              "volume": 933
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-13",
+              "open": 114.2,
+              "high": 115.25,
+              "low": 112.89,
+              "close": 113.83,
+              "volume": 1094
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-13",
+              "open": 113.83,
+              "high": 114.84,
+              "low": 112.93,
+              "close": 114.27,
+              "volume": 1416
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-13",
+              "open": 114.27,
+              "high": 116.09,
+              "low": 113.36,
+              "close": 115.1,
+              "volume": 1073
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-13",
+              "open": 115.1,
+              "high": 116.73,
+              "low": 114.07,
+              "close": 116.08,
+              "volume": 469
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "douyin",
+        "url": "https://www.douyin.com/video/7689603760582085942",
+        "title": "圆弧底怎么确认？",
+        "creator": "哆啦ABCD梦",
+        "source_segment": {
+          "start_seconds": 60,
+          "end_seconds": 105,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "同系列结构讲解；从前趋势、底部、右侧抬高到颈线突破和量能确认。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-014",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“通道形态：碰到上轨就卖吗？”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦通道形态：碰到上轨就卖吗？所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：通道形态：碰到上轨就卖吗？",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-14",
+              "open": 127.29,
+              "high": 127.86,
+              "low": 126.89,
+              "close": 127.16,
+              "volume": 318
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-14",
+              "open": 127.16,
+              "high": 127.92,
+              "low": 126.11,
+              "close": 126.8,
+              "volume": 1563
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-14",
+              "open": 126.8,
+              "high": 128.18,
+              "low": 126.43,
+              "close": 127.3,
+              "volume": 1429
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-14",
+              "open": 127.3,
+              "high": 127.74,
+              "low": 126.4,
+              "close": 126.8,
+              "volume": 1699
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-14",
+              "open": 126.8,
+              "high": 128.6,
+              "low": 126.56,
+              "close": 127.68,
+              "volume": 1105
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-14",
+              "open": 127.68,
+              "high": 128.71,
+              "low": 127.08,
+              "close": 127.26,
+              "volume": 1023
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-14",
+              "open": 127.26,
+              "high": 128.43,
+              "low": 126.66,
+              "close": 127.53,
+              "volume": 1550
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-14",
+              "open": 127.53,
+              "high": 128.19,
+              "low": 126.54,
+              "close": 127.92,
+              "volume": 568
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-14",
+              "open": 127.92,
+              "high": 128.15,
+              "low": 127.72,
+              "close": 127.93,
+              "volume": 906
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-14",
+              "open": 127.93,
+              "high": 129.04,
+              "low": 127.06,
+              "close": 128.2,
+              "volume": 733
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-14",
+              "open": 128.2,
+              "high": 129.21,
+              "low": 126.87,
+              "close": 127.82,
+              "volume": 349
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-14",
+              "open": 127.82,
+              "high": 128.11,
+              "low": 126.85,
+              "close": 127.52,
+              "volume": 1218
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-14",
+              "open": 127.52,
+              "high": 128.82,
+              "low": 127.02,
+              "close": 128.01,
+              "volume": 408
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-14",
+              "open": 128.01,
+              "high": 128.77,
+              "low": 127.62,
+              "close": 128.23,
+              "volume": 1346
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-14",
+              "open": 128.23,
+              "high": 129.37,
+              "low": 127.99,
+              "close": 129.09,
+              "volume": 658
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-14",
+              "open": 129.09,
+              "high": 130.16,
+              "low": 128.19,
+              "close": 129.37,
+              "volume": 1619
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-14",
+              "open": 129.37,
+              "high": 129.63,
+              "low": 127.72,
+              "close": 128.67,
+              "volume": 1717
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-14",
+              "open": 128.67,
+              "high": 129.42,
+              "low": 127.42,
+              "close": 127.76,
+              "volume": 349
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-14",
+              "open": 127.76,
+              "high": 128.59,
+              "low": 126.99,
+              "close": 127.19,
+              "volume": 1272
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-14",
+              "open": 127.19,
+              "high": 128.38,
+              "low": 126.99,
+              "close": 127.6,
+              "volume": 1056
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-14",
+              "open": 127.6,
+              "high": 127.81,
+              "low": 126.94,
+              "close": 127.46,
+              "volume": 1154
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-14",
+              "open": 127.46,
+              "high": 128.94,
+              "low": 126.44,
+              "close": 128.32,
+              "volume": 1499
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-14",
+              "open": 128.32,
+              "high": 129.81,
+              "low": 128.14,
+              "close": 128.77,
+              "volume": 863
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-14",
+              "open": 128.77,
+              "high": 129.88,
+              "low": 128.14,
+              "close": 129.68,
+              "volume": 135
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "douyin",
+        "url": "https://www.douyin.com/video/7689806626886290728",
+        "title": "通道形态：碰到上轨就卖吗？",
+        "creator": "哆啦ABCD梦",
+        "source_segment": {
+          "start_seconds": 35,
+          "end_seconds": 80,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "浏览器核看过清晰构造K线，双通道线和阴影区标注；视频章节包括通道运行、加速、失败突破和结构转弱。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-015",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“市场不是一根根K线，而是一条条腿”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦市场不是一根根K线，而是一条条腿所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：市场不是一根根K线，而是一条条腿",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-15",
+              "open": 113.53,
+              "high": 113.83,
+              "low": 112.68,
+              "close": 113.64,
+              "volume": 1479
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-15",
+              "open": 113.64,
+              "high": 115.44,
+              "low": 112.67,
+              "close": 114.46,
+              "volume": 1491
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-15",
+              "open": 114.46,
+              "high": 116.1,
+              "low": 113.99,
+              "close": 115.33,
+              "volume": 1517
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-15",
+              "open": 115.33,
+              "high": 115.55,
+              "low": 114.86,
+              "close": 115.23,
+              "volume": 1116
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-15",
+              "open": 115.23,
+              "high": 116.58,
+              "low": 114.54,
+              "close": 115.83,
+              "volume": 1094
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-15",
+              "open": 115.83,
+              "high": 116.0,
+              "low": 114.25,
+              "close": 115.27,
+              "volume": 1272
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-15",
+              "open": 115.27,
+              "high": 116.41,
+              "low": 114.95,
+              "close": 115.43,
+              "volume": 502
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-15",
+              "open": 115.43,
+              "high": 116.33,
+              "low": 114.41,
+              "close": 115.91,
+              "volume": 445
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-15",
+              "open": 115.91,
+              "high": 116.48,
+              "low": 114.86,
+              "close": 116.31,
+              "volume": 1559
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-15",
+              "open": 116.31,
+              "high": 116.51,
+              "low": 114.96,
+              "close": 115.41,
+              "volume": 218
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-15",
+              "open": 115.41,
+              "high": 115.93,
+              "low": 114.05,
+              "close": 114.93,
+              "volume": 842
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-15",
+              "open": 114.93,
+              "high": 115.44,
+              "low": 113.92,
+              "close": 115.19,
+              "volume": 697
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-15",
+              "open": 115.19,
+              "high": 115.93,
+              "low": 114.13,
+              "close": 115.05,
+              "volume": 870
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-15",
+              "open": 115.05,
+              "high": 116.28,
+              "low": 114.19,
+              "close": 115.49,
+              "volume": 722
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-15",
+              "open": 115.49,
+              "high": 117.0,
+              "low": 115.33,
+              "close": 116.45,
+              "volume": 421
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-15",
+              "open": 116.45,
+              "high": 117.73,
+              "low": 115.8,
+              "close": 116.76,
+              "volume": 1001
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-15",
+              "open": 116.76,
+              "high": 117.15,
+              "low": 114.95,
+              "close": 115.76,
+              "volume": 483
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-15",
+              "open": 115.76,
+              "high": 116.65,
+              "low": 114.76,
+              "close": 115.36,
+              "volume": 1105
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-15",
+              "open": 115.36,
+              "high": 116.13,
+              "low": 114.88,
+              "close": 115.62,
+              "volume": 1154
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-15",
+              "open": 115.62,
+              "high": 116.52,
+              "low": 115.02,
+              "close": 115.48,
+              "volume": 678
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-15",
+              "open": 115.48,
+              "high": 115.96,
+              "low": 114.88,
+              "close": 115.51,
+              "volume": 1093
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-15",
+              "open": 115.51,
+              "high": 116.95,
+              "low": 115.03,
+              "close": 116.24,
+              "volume": 1335
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-15",
+              "open": 116.24,
+              "high": 116.73,
+              "low": 115.48,
+              "close": 115.74,
+              "volume": 1254
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-15",
+              "open": 115.74,
+              "high": 116.35,
+              "low": 114.19,
+              "close": 115.16,
+              "volume": 1251
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "douyin",
+        "url": "https://www.douyin.com/video/7618209089339936052",
+        "title": "市场不是一根根K线，而是一条条腿",
+        "creator": "老丁的财富笔记",
+        "source_segment": {
+          "start_seconds": 40,
+          "end_seconds": 85,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "页面有完整时间轴；该段落覆盖“两条腿”结构示例，讲趋势推进和回调的节奏。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-016",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“高开冲高，为什么还不能叫反包？”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦高开冲高，为什么还不能叫反包？所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：高开冲高，为什么还不能叫反包？",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-16",
+              "open": 108.14,
+              "high": 109.22,
+              "low": 107.13,
+              "close": 108.44,
+              "volume": 855
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-16",
+              "open": 108.44,
+              "high": 108.95,
+              "low": 108.25,
+              "close": 108.43,
+              "volume": 1659
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-16",
+              "open": 108.43,
+              "high": 110.27,
+              "low": 107.44,
+              "close": 109.23,
+              "volume": 1365
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-16",
+              "open": 109.23,
+              "high": 109.59,
+              "low": 107.69,
+              "close": 108.69,
+              "volume": 1252
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-16",
+              "open": 108.69,
+              "high": 109.25,
+              "low": 107.82,
+              "close": 108.09,
+              "volume": 425
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-16",
+              "open": 108.09,
+              "high": 108.55,
+              "low": 107.16,
+              "close": 107.47,
+              "volume": 517
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-16",
+              "open": 107.47,
+              "high": 108.52,
+              "low": 106.48,
+              "close": 106.92,
+              "volume": 1446
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-16",
+              "open": 106.92,
+              "high": 107.07,
+              "low": 105.31,
+              "close": 105.94,
+              "volume": 709
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-16",
+              "open": 105.94,
+              "high": 107.22,
+              "low": 105.76,
+              "close": 106.51,
+              "volume": 1123
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-16",
+              "open": 106.51,
+              "high": 107.13,
+              "low": 105.91,
+              "close": 106.76,
+              "volume": 856
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-16",
+              "open": 106.76,
+              "high": 107.19,
+              "low": 106.43,
+              "close": 106.99,
+              "volume": 741
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-16",
+              "open": 106.99,
+              "high": 108.8,
+              "low": 106.53,
+              "close": 107.94,
+              "volume": 1481
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-16",
+              "open": 107.94,
+              "high": 108.88,
+              "low": 106.83,
+              "close": 107.33,
+              "volume": 354
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-16",
+              "open": 107.33,
+              "high": 107.97,
+              "low": 107.14,
+              "close": 107.81,
+              "volume": 647
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-16",
+              "open": 107.81,
+              "high": 108.59,
+              "low": 107.14,
+              "close": 107.78,
+              "volume": 265
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-16",
+              "open": 107.78,
+              "high": 109.3,
+              "low": 106.86,
+              "close": 108.45,
+              "volume": 358
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-16",
+              "open": 108.45,
+              "high": 109.41,
+              "low": 108.16,
+              "close": 108.88,
+              "volume": 994
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-16",
+              "open": 108.88,
+              "high": 109.16,
+              "low": 107.49,
+              "close": 108.51,
+              "volume": 301
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-16",
+              "open": 108.51,
+              "high": 108.8,
+              "low": 107.12,
+              "close": 107.63,
+              "volume": 631
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-16",
+              "open": 107.63,
+              "high": 108.05,
+              "low": 106.59,
+              "close": 107.48,
+              "volume": 1736
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-16",
+              "open": 107.48,
+              "high": 109.0,
+              "low": 106.91,
+              "close": 107.95,
+              "volume": 1295
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-16",
+              "open": 107.95,
+              "high": 109.3,
+              "low": 107.3,
+              "close": 109.0,
+              "volume": 801
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-16",
+              "open": 109.0,
+              "high": 110.21,
+              "low": 108.6,
+              "close": 109.68,
+              "volume": 1261
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-16",
+              "open": 109.68,
+              "high": 110.15,
+              "low": 108.57,
+              "close": 109.09,
+              "volume": 600
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "douyin",
+        "url": "https://www.douyin.com/video/7671670145428901146",
+        "title": "高开冲高，为什么还不能叫反包？",
+        "creator": "页面作者名未能可靠确认",
+        "source_segment": {
+          "start_seconds": 0,
+          "end_seconds": 45,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "页面文案聚焦前一根实体、当日收盘与量能辅助判断反包；作者字段不臆测。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-017",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“连续大阴线，是反转还是诱空？”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦连续大阴线，是反转还是诱空？所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：连续大阴线，是反转还是诱空？",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-17",
+              "open": 105.99,
+              "high": 106.65,
+              "low": 105.02,
+              "close": 106.4,
+              "volume": 493
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-17",
+              "open": 106.4,
+              "high": 107.25,
+              "low": 105.24,
+              "close": 106.15,
+              "volume": 808
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-17",
+              "open": 106.15,
+              "high": 107.27,
+              "low": 105.52,
+              "close": 106.51,
+              "volume": 1200
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-17",
+              "open": 106.51,
+              "high": 107.28,
+              "low": 105.57,
+              "close": 106.26,
+              "volume": 1054
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-17",
+              "open": 106.26,
+              "high": 106.92,
+              "low": 105.5,
+              "close": 106.67,
+              "volume": 248
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-17",
+              "open": 106.67,
+              "high": 107.37,
+              "low": 105.83,
+              "close": 106.39,
+              "volume": 1084
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-17",
+              "open": 106.39,
+              "high": 107.27,
+              "low": 106.04,
+              "close": 106.54,
+              "volume": 952
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-17",
+              "open": 106.54,
+              "high": 106.95,
+              "low": 105.54,
+              "close": 106.7,
+              "volume": 123
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-17",
+              "open": 106.7,
+              "high": 106.98,
+              "low": 105.44,
+              "close": 106.34,
+              "volume": 1476
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-17",
+              "open": 106.34,
+              "high": 106.53,
+              "low": 105.34,
+              "close": 106.26,
+              "volume": 1560
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-17",
+              "open": 106.26,
+              "high": 107.21,
+              "low": 105.91,
+              "close": 106.2,
+              "volume": 636
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-17",
+              "open": 106.2,
+              "high": 106.49,
+              "low": 105.44,
+              "close": 105.75,
+              "volume": 977
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-17",
+              "open": 105.75,
+              "high": 106.37,
+              "low": 105.38,
+              "close": 106.06,
+              "volume": 840
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-17",
+              "open": 106.06,
+              "high": 107.56,
+              "low": 105.76,
+              "close": 106.56,
+              "volume": 666
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-17",
+              "open": 106.56,
+              "high": 107.11,
+              "low": 105.88,
+              "close": 106.18,
+              "volume": 1610
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-17",
+              "open": 106.18,
+              "high": 106.51,
+              "low": 105.31,
+              "close": 105.62,
+              "volume": 1429
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-17",
+              "open": 105.62,
+              "high": 106.57,
+              "low": 104.61,
+              "close": 106.11,
+              "volume": 1685
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-17",
+              "open": 106.11,
+              "high": 106.42,
+              "low": 105.76,
+              "close": 106.02,
+              "volume": 1334
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-17",
+              "open": 106.02,
+              "high": 106.41,
+              "low": 104.88,
+              "close": 105.51,
+              "volume": 181
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-17",
+              "open": 105.51,
+              "high": 106.26,
+              "low": 104.33,
+              "close": 105.18,
+              "volume": 1662
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-17",
+              "open": 105.18,
+              "high": 105.83,
+              "low": 104.57,
+              "close": 105.54,
+              "volume": 1184
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-17",
+              "open": 105.54,
+              "high": 107.19,
+              "low": 104.84,
+              "close": 106.15,
+              "volume": 562
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-17",
+              "open": 106.15,
+              "high": 107.26,
+              "low": 105.34,
+              "close": 106.49,
+              "volume": 802
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-17",
+              "open": 106.49,
+              "high": 107.64,
+              "low": 106.15,
+              "close": 106.91,
+              "volume": 1530
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "douyin",
+        "url": "https://www.douyin.com/video/7687258607545643899",
+        "title": "连续大阴线，是反转还是诱空？",
+        "creator": "内观自在",
+        "source_segment": {
+          "start_seconds": 30,
+          "end_seconds": 75,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "页面说明重点在内部破位、回撤、收回关键位与回踩确认，适合结构转折/失效条件讲解。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  },
+  {
+    "id": "kline-narrative-018",
+    "input": {
+      "intent": "生成一段约45秒的K线解读视频，测试“周线形态12：M头”对应的结构识别、重点标注、叙事推进和条件确认。输入行情为独立合成样例。",
+      "narration": "先呈现完整K线结构，再聚焦周线形态12：M头所涉及的关键高低点、形态边界或确认位置；通过旁白解释当前结构与后续观察条件，并明确哪些变化会使判断失效。不得把形态描述成确定性预测。",
+      "tables": [
+        {
+          "id": "t1",
+          "title": "合成演示K线：周线形态12：M头",
+          "unit": "合成价格单位",
+          "rows": [
+            {
+              "id": "t1_r001",
+              "period": "T01",
+              "series": "SYNTH-18",
+              "open": 106.11,
+              "high": 106.85,
+              "low": 104.96,
+              "close": 105.64,
+              "volume": 1399
+            },
+            {
+              "id": "t1_r002",
+              "period": "T02",
+              "series": "SYNTH-18",
+              "open": 105.64,
+              "high": 107.39,
+              "low": 104.97,
+              "close": 106.51,
+              "volume": 1775
+            },
+            {
+              "id": "t1_r003",
+              "period": "T03",
+              "series": "SYNTH-18",
+              "open": 106.51,
+              "high": 107.1,
+              "low": 105.92,
+              "close": 106.41,
+              "volume": 1219
+            },
+            {
+              "id": "t1_r004",
+              "period": "T04",
+              "series": "SYNTH-18",
+              "open": 106.41,
+              "high": 107.21,
+              "low": 105.64,
+              "close": 107.02,
+              "volume": 880
+            },
+            {
+              "id": "t1_r005",
+              "period": "T05",
+              "series": "SYNTH-18",
+              "open": 107.02,
+              "high": 107.9,
+              "low": 106.75,
+              "close": 107.02,
+              "volume": 1676
+            },
+            {
+              "id": "t1_r006",
+              "period": "T06",
+              "series": "SYNTH-18",
+              "open": 107.02,
+              "high": 107.22,
+              "low": 106.69,
+              "close": 106.91,
+              "volume": 348
+            },
+            {
+              "id": "t1_r007",
+              "period": "T07",
+              "series": "SYNTH-18",
+              "open": 106.91,
+              "high": 107.89,
+              "low": 106.42,
+              "close": 106.76,
+              "volume": 310
+            },
+            {
+              "id": "t1_r008",
+              "period": "T08",
+              "series": "SYNTH-18",
+              "open": 106.76,
+              "high": 107.09,
+              "low": 106.6,
+              "close": 106.87,
+              "volume": 599
+            },
+            {
+              "id": "t1_r009",
+              "period": "T09",
+              "series": "SYNTH-18",
+              "open": 106.87,
+              "high": 108.0,
+              "low": 105.85,
+              "close": 106.97,
+              "volume": 1758
+            },
+            {
+              "id": "t1_r010",
+              "period": "T10",
+              "series": "SYNTH-18",
+              "open": 106.97,
+              "high": 107.57,
+              "low": 105.9,
+              "close": 106.89,
+              "volume": 1671
+            },
+            {
+              "id": "t1_r011",
+              "period": "T11",
+              "series": "SYNTH-18",
+              "open": 106.89,
+              "high": 107.33,
+              "low": 105.33,
+              "close": 106.37,
+              "volume": 1271
+            },
+            {
+              "id": "t1_r012",
+              "period": "T12",
+              "series": "SYNTH-18",
+              "open": 106.37,
+              "high": 106.68,
+              "low": 105.72,
+              "close": 106.21,
+              "volume": 999
+            },
+            {
+              "id": "t1_r013",
+              "period": "T13",
+              "series": "SYNTH-18",
+              "open": 106.21,
+              "high": 107.87,
+              "low": 105.21,
+              "close": 107.12,
+              "volume": 1268
+            },
+            {
+              "id": "t1_r014",
+              "period": "T14",
+              "series": "SYNTH-18",
+              "open": 107.12,
+              "high": 108.23,
+              "low": 106.17,
+              "close": 107.21,
+              "volume": 215
+            },
+            {
+              "id": "t1_r015",
+              "period": "T15",
+              "series": "SYNTH-18",
+              "open": 107.21,
+              "high": 108.08,
+              "low": 106.61,
+              "close": 107.43,
+              "volume": 1218
+            },
+            {
+              "id": "t1_r016",
+              "period": "T16",
+              "series": "SYNTH-18",
+              "open": 107.43,
+              "high": 108.64,
+              "low": 106.67,
+              "close": 107.65,
+              "volume": 499
+            },
+            {
+              "id": "t1_r017",
+              "period": "T17",
+              "series": "SYNTH-18",
+              "open": 107.65,
+              "high": 108.33,
+              "low": 106.57,
+              "close": 107.15,
+              "volume": 336
+            },
+            {
+              "id": "t1_r018",
+              "period": "T18",
+              "series": "SYNTH-18",
+              "open": 107.15,
+              "high": 107.99,
+              "low": 106.44,
+              "close": 107.09,
+              "volume": 1547
+            },
+            {
+              "id": "t1_r019",
+              "period": "T19",
+              "series": "SYNTH-18",
+              "open": 107.09,
+              "high": 108.45,
+              "low": 106.74,
+              "close": 107.6,
+              "volume": 1243
+            },
+            {
+              "id": "t1_r020",
+              "period": "T20",
+              "series": "SYNTH-18",
+              "open": 107.6,
+              "high": 108.36,
+              "low": 106.34,
+              "close": 107.1,
+              "volume": 1397
+            },
+            {
+              "id": "t1_r021",
+              "period": "T21",
+              "series": "SYNTH-18",
+              "open": 107.1,
+              "high": 107.5,
+              "low": 106.81,
+              "close": 107.07,
+              "volume": 207
+            },
+            {
+              "id": "t1_r022",
+              "period": "T22",
+              "series": "SYNTH-18",
+              "open": 107.07,
+              "high": 108.0,
+              "low": 106.18,
+              "close": 106.95,
+              "volume": 1404
+            },
+            {
+              "id": "t1_r023",
+              "period": "T23",
+              "series": "SYNTH-18",
+              "open": 106.95,
+              "high": 107.87,
+              "low": 106.29,
+              "close": 107.35,
+              "volume": 1499
+            },
+            {
+              "id": "t1_r024",
+              "period": "T24",
+              "series": "SYNTH-18",
+              "open": 107.35,
+              "high": 108.48,
+              "low": 106.49,
+              "close": 107.98,
+              "volume": 417
+            }
+          ],
+          "field_notes": {
+            "open": "开盘价",
+            "high": "最高价",
+            "low": "最低价",
+            "close": "收盘价",
+            "volume": "合成成交量；仅用于动画演示"
+          }
+        }
+      ],
+      "video_reference": {
+        "platform": "douyin",
+        "url": "https://www.douyin.com/video/7690788462483524902",
+        "title": "周线形态12：M头",
+        "creator": "～青鸟～",
+        "source_segment": {
+          "start_seconds": 20,
+          "end_seconds": 65,
+          "duration_seconds": 45
+        },
+        "role": "visual_and_narrative_reference_only",
+        "curation_note": "页面讨论M头第二高点与下压线，兼顾K线形态和基本面背景；测试形态判读及边界说明。"
+      },
+      "animation_hints": {
+        "timeline": [
+          "0-8秒：全景建立K线走势",
+          "8-20秒：高亮相关结构区间与关键K线",
+          "20-35秒：旁白解释形态演化及确认条件",
+          "35-45秒：展示失效条件并回到全景"
+        ],
+        "chart_focus": [
+          "K线主体",
+          "关键高低点/支撑阻力或形态边界",
+          "必要时成交量"
+        ],
+        "disclaimer": "行情表为合成演示数据，与参考视频的真实行情无关；不构成投资建议。"
+      }
+    }
+  }
+]

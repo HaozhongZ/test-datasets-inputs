@@ -87,3 +87,20 @@ assert all(all({'period','series','open','high','low','close','volume'}<=set(r) 
 assert all(x['input']['video_reference']['role']=='style_reference_only' and x['input']['video_reference']['url'].startswith('https://') for x in items)
 assert all(x['input']['animation_hints']['timeline'] for x in items)
 print(f'PASS: kline-video-animation {n} inputs; valid synthetic OHLCV and reference metadata')
+
+base=root/'suites'/'kline-video-narrative'/'v1.0.0'
+manifest=json.loads((base/'manifest.json').read_text())
+items=json.loads((base/'input.json').read_text())
+n=manifest['case_count']
+assert manifest['suite']=='kline-video-narrative'
+assert len(items)==n==18
+assert [x['id'] for x in items]==[f'kline-narrative-{i:03d}' for i in range(1,n+1)]
+assert manifest['platform_counts']=={'bilibili':9,'douyin':9}
+assert all(set(x)=={'id','input'} for x in items)
+assert all({'intent','narration','tables','video_reference','animation_hints'}==set(x['input']) for x in items)
+assert all(x['input']['video_reference']['platform'] in ('bilibili','douyin') for x in items)
+assert all(x['input']['video_reference']['source_segment']['duration_seconds'] in range(30,61) for x in items)
+assert all(x['input']['video_reference']['url'].startswith('https://') for x in items)
+assert all(len(x['input']['tables'])==1 and len(x['input']['tables'][0]['rows'])==24 for x in items)
+assert all(all({'period','series','open','high','low','close','volume'}<=set(r) and r['low']<=min(r['open'],r['close'])<=max(r['open'],r['close'])<=r['high'] for r in x['input']['tables'][0]['rows']) for x in items)
+print(f'PASS: kline-video-narrative {n} inputs; 9 Bilibili + 9 Douyin; valid synthetic OHLCV and 30–60s references')

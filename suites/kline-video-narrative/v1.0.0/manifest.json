@@ -1,0 +1,12 @@
+{
+  "suite": "kline-video-narrative",
+  "version": "1.0.0",
+  "case_count": 18,
+  "input_file": "input.json",
+  "schema_version": 1,
+  "platform_counts": {
+    "bilibili": 9,
+    "douyin": 9
+  },
+  "note": "18条约45秒K线解读视频生成测试输入，含B站与抖音各9条。参考视频只用于叙事和画面风格参考，测试用OHLCV均为合成数据，与来源视频无关。不含期望输出或评分。来源片段使用公开页面时间偏移，不代表独立下载或转载视频。"
+}
