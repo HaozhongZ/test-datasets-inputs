@@ -271,7 +271,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "旗形整理与趋势延续，来源页标注为K线形态系列；本段用于测试旗形结构、通道边界与突破确认的讲解节奏。"
+        "curation_note": "旗形整理与趋势延续，来源页标注为K线形态系列；本段用于测试旗形结构、通道边界与突破确认的讲解节奏。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -561,7 +562,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "逐K复盘；页面说明使用文华复盘界面逐K出现，并对入场K线作标记。选择盘面逐步展开与关键K线标注作为参考。"
+        "curation_note": "逐K复盘；页面说明使用文华复盘界面逐K出现，并对入场K线作标记。选择盘面逐步展开与关键K线标注作为参考。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -851,7 +853,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "作者简介说明基于市场回放逐根解读并结合价格行为；适合测试区域定位、回测与确认叙述。"
+        "curation_note": "作者简介说明基于市场回放逐根解读并结合价格行为；适合测试区域定位、回测与确认叙述。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -1141,7 +1144,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "页面介绍侧重价格波动含义，系列含K线学习与价格行为课程；测试由整体结构收束到局部K线的讲解。"
+        "curation_note": "页面介绍侧重价格波动含义，系列含K线学习与价格行为课程；测试由整体结构收束到局部K线的讲解。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -1431,7 +1435,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "系列讲解K线构成及单根形态，页面显示后续有双K组合和实战内容；选取基础图表讲解段。"
+        "curation_note": "系列讲解K线构成及单根形态，页面显示后续有双K组合和实战内容；选取基础图表讲解段。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -1721,7 +1726,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "近期形态讲解视频，标题明确聚焦K线形态；测试单个组合形态的重点标识和短叙事。"
+        "curation_note": "近期形态讲解视频，标题明确聚焦K线形态；测试单个组合形态的重点标识和短叙事。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -2011,7 +2017,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "页面标为裸K实战复盘、边做边讲；用于测试真实盘面上的结构判断与操作讲述。"
+        "curation_note": "页面标为裸K实战复盘、边做边讲；用于测试真实盘面上的结构判断与操作讲述。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -2301,7 +2308,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "页面列出该条视频时长1:35，描述聚焦黄金K线结构、等待和确认；选取短片段做叙事与图表并行案例。"
+        "curation_note": "页面列出该条视频时长1:35，描述聚焦黄金K线结构、等待和确认；选取短片段做叙事与图表并行案例。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -2591,7 +2599,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "搜索页摘要明确包含楔形突破、头肩底突破、颈线与第一目标；用于突破/形态判断。账号名未在样本元数据中推定。"
+        "curation_note": "搜索页摘要明确包含楔形突破、头肩底突破、颈线与第一目标；用于突破/形态判断。账号名未在样本元数据中推定。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -2881,7 +2890,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "同一K线教学系列；构造K线标示18元颈线，并讲第三次反弹、确认与失效条件。"
+        "curation_note": "同一K线教学系列；构造K线标示18元颈线，并讲第三次反弹、确认与失效条件。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -3171,7 +3181,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "同系列形态讲解；关注水平支撑、多次反弹力度与破位跟进。"
+        "curation_note": "同系列形态讲解；关注水平支撑、多次反弹力度与破位跟进。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -3461,7 +3472,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "同系列形态讲解；先扩张后收敛，再观察突破方向和跟进。"
+        "curation_note": "同系列形态讲解；先扩张后收敛，再观察突破方向和跟进。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -3751,7 +3763,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "同系列结构讲解；从前趋势、底部、右侧抬高到颈线突破和量能确认。"
+        "curation_note": "同系列结构讲解；从前趋势、底部、右侧抬高到颈线突破和量能确认。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -4041,7 +4054,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "浏览器核看过清晰构造K线，双通道线和阴影区标注；视频章节包括通道运行、加速、失败突破和结构转弱。"
+        "curation_note": "浏览器核看过清晰构造K线，双通道线和阴影区标注；视频章节包括通道运行、加速、失败突破和结构转弱。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -4331,7 +4345,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "页面有完整时间轴；该段落覆盖“两条腿”结构示例，讲趋势推进和回调的节奏。"
+        "curation_note": "页面有完整时间轴；该段落覆盖“两条腿”结构示例，讲趋势推进和回调的节奏。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -4621,7 +4636,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "页面文案聚焦前一根实体、当日收盘与量能辅助判断反包；作者字段不臆测。"
+        "curation_note": "页面文案聚焦前一根实体、当日收盘与量能辅助判断反包；作者字段不臆测。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -4911,7 +4927,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "页面说明重点在内部破位、回撤、收回关键位与回踩确认，适合结构转折/失效条件讲解。"
+        "curation_note": "页面说明重点在内部破位、回撤、收回关键位与回踩确认，适合结构转折/失效条件讲解。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
@@ -5201,7 +5218,8 @@
           "duration_seconds": 45
         },
         "role": "visual_and_narrative_reference_only",
-        "curation_note": "页面讨论M头第二高点与下压线，兼顾K线形态和基本面背景；测试形态判读及边界说明。"
+        "curation_note": "页面讨论M头第二高点与下压线，兼顾K线形态和基本面背景；测试形态判读及边界说明。",
+        "segment_status": "suggested_window_not_downloaded_playback_review_needed"
       },
       "animation_hints": {
         "timeline": [
