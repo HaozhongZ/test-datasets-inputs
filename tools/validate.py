@@ -71,3 +71,19 @@ assert all(set(x['input'])=={'intent','narration','tables'} for x in items)
 assert all(isinstance(x['input']['intent'],str) and isinstance(x['input']['narration'],str) and isinstance(x['input']['tables'],list) and x['input']['tables'] for x in items)
 assert all(isinstance(t.get('rows'),list) and t['rows'] for x in items for t in x['input']['tables'])
 print(f'PASS: html-chart-animation {n} inputs')
+
+base=root/'suites'/'kline-video-animation'/'v1.0.0'
+manifest=json.loads((base/'manifest.json').read_text())
+items=json.loads((base/'input.json').read_text())
+n=manifest['case_count']
+assert manifest['suite']=='kline-video-animation'
+assert len(items)==n==100
+assert [x['id'] for x in items]==[f'kline-{i:03d}' for i in range(1,n+1)]
+assert all(set(x)=={'id','input'} for x in items)
+assert all({'intent','narration','tables','video_reference','animation_hints'}==set(x['input']) for x in items)
+assert all(isinstance(x['input']['intent'],str) and isinstance(x['input']['narration'],str) for x in items)
+assert all(len(x['input']['tables'])==1 and len(x['input']['tables'][0]['rows'])==24 for x in items)
+assert all(all({'period','series','open','high','low','close','volume'}<=set(r) and r['low']<=min(r['open'],r['close'])<=max(r['open'],r['close'])<=r['high'] for r in x['input']['tables'][0]['rows']) for x in items)
+assert all(x['input']['video_reference']['role']=='style_reference_only' and x['input']['video_reference']['url'].startswith('https://') for x in items)
+assert all(x['input']['animation_hints']['timeline'] for x in items)
+print(f'PASS: kline-video-animation {n} inputs; valid synthetic OHLCV and reference metadata')

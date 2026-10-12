@@ -1,0 +1,8 @@
+{
+  "suite": "kline-video-animation",
+  "version": "1.0.0",
+  "case_count": 100,
+  "input_file": "input.json",
+  "schema_version": 1,
+  "note": "100条K线解读视频生成输入，采用html-chart-animation的case id和input.intent/narration/tables结构；tables使用OHLCV列，并附可选视频风格参考与动画提示。OHLCV为确定性合成演示数据，不代表来源视频行情；不含期望输出或评分。"
+}
